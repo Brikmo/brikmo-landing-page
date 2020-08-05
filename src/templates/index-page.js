@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import logo from "../img/logo.svg";
 import HeroImage from "../components/Images/HeroImage";
 import ButtonApp from "../components/Images/ButtonApp";
@@ -16,15 +16,21 @@ export const IndexPageTemplate = ({ title, subheading, mainContentTitle }) => (
         <button className="button">Primary button</button>
       </div>
       <div className="container is-fluid content-wrapper">
-        <div className="content">
-          <h1>{title}</h1>
-          <p>{subheading}</p>
-          <div className="app-buttons">
-            <ButtonApp />
-            <ButtonPlay />
+        <div class="columns is-desktop is-tablet">
+          <div class="column">
+            <div className="content">
+              <h1>{title}</h1>
+              <p>{subheading}</p>
+              <div className="app-buttons">
+                <ButtonApp />
+                <ButtonPlay />
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <HeroImage />
           </div>
         </div>
-        <HeroImage />
       </div>
     </div>
     <div className="container main-content">

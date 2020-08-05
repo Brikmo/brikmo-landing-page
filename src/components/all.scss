@@ -1,26 +1,43 @@
 @import "~bulma";
 
+$tablet-breakpoint: 1024px;
+
 body {
   margin: 0;
 }
 
 .hero-section {
   width: 100vw;
-  height: 786px;
   position: relative;
   margin: 0;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   background-image: url("../img/hero.svg");
   background-position: top left;
+  padding-bottom: 35px;
+  @media screen and (max-width: $tablet-breakpoint) {
+    background-image: url("../img/hero-mobile.svg");
+    padding-bottom: 70px;
+  }
+
   .content-wrapper {
     margin-top: 35px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 90vw;
+    .columns {
+      width: 100vw;
+      .column {
+        display: flex;
+        align-items: center;
+      }
+      @media screen and (max-width: $tablet-breakpoint) {
+        .column {
+          justify-content: center;
+        }
+      }
+    }
     .content {
-      flex: 1;
       h1 {
         font-family: "Avenir Next";
         font-style: normal;
@@ -44,10 +61,39 @@ body {
         display: flex;
         margin-top: 70px;
         margin-bottom: 70px;
+
         .button-app,
         .button-play {
           width: 209px;
           margin-right: 20px;
+        }
+        @media screen and (max-width: $tablet-breakpoint) {
+          justify-content: center;
+          max-width: 90vw;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          .button-app,
+          .button-play {
+            width: 155px;
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+      @media screen and (max-width: $tablet-breakpoint) {
+        text-align: center;
+        justify-content: center;
+        h1 {
+          font-size: 36px;
+          line-height: 50px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 40px;
+          margin-top: 30px;
+          margin-bottom: 30px;
         }
       }
     }
@@ -75,11 +121,25 @@ body {
     text-align: center;
     letter-spacing: -0.3px;
     color: #eb3349;
+
+    @media screen and (max-width: $tablet-breakpoint) {
+      width: 133px;
+      height: 48px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+    }
   }
 }
 
 .heroImage {
   flex: 1;
+  max-width: 857px;
+  max-height: 628px;
+  @media screen and (max-width: $tablet-breakpoint) {
+    max-width: 495px;
+    max-height: 363px;
+  }
 }
 
 .main-content {

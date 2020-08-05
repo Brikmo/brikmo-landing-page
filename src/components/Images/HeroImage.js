@@ -19,7 +19,6 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       className="heroImage"
-      style={{ maxWidth: "857px", maxHeight: "628px" }}
       imgStyle={{ objectFit: "contain" }}
     />
   );
