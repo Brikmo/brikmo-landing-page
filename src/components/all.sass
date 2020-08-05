@@ -7,15 +7,18 @@ body
   height: 786px
   position: relative
   margin: 0
-  background-size: cover
+  background-size: contain
   background-position: bottom
   background-image: url('../img/hero.svg')
   background-position: top left
   .content-wrapper
-    margin-top: 70px
+    margin-top: 35px
     display: flex
     align-items: center
+    justify-content: space-around
+    width: 90vw
     .content
+      flex: 1
       h1
         font-family: Avenir Next
         font-style: normal
@@ -45,6 +48,7 @@ body
   justify-content: space-between
   align-items: center
   padding-top: 30px
+  width: 90vw
   .button
     width: 200px
     height: 58px
@@ -61,4 +65,4 @@ body
     letter-spacing: -0.3px
     color: #EB3349
 .heroImage
-  width: 857px
+  flex: 1

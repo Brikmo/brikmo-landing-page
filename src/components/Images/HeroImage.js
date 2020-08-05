@@ -7,7 +7,7 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "Phone-Mockup.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -19,6 +19,8 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       className="heroImage"
+      style={{ maxWidth: "857px", maxHeight: "628px" }}
+      imgStyle={{ objectFit: "contain" }}
     />
   );
 };
