@@ -8,14 +8,7 @@ import ButtonPlay from "../components/Images/ButtonPlay";
 
 import Layout from "../components/Layout";
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-}) => (
+export const IndexPageTemplate = ({ title, subheading, mainContentTitle }) => (
   <div className="page">
     <div className="hero-section">
       <div className="container is-fluid header">
@@ -33,6 +26,9 @@ export const IndexPageTemplate = ({
         </div>
         <HeroImage />
       </div>
+    </div>
+    <div className="container main-content">
+      <h1>{mainContentTitle}</h1>
     </div>
   </div>
 );
@@ -55,13 +51,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
+        mainContentTitle={frontmatter.mainContentTitle}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   );
@@ -83,6 +75,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subheading
+        mainContentTitle
       }
     }
   }
