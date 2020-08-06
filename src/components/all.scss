@@ -165,4 +165,44 @@ body {
       background: #faebf0;
     }
   }
+  .text-block {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    .image {
+      max-width: 480px;
+      margin: auto;
+    }
+    .text {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+      .title {
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 0.2px;
+        color: #000000;
+      }
+      .divider {
+        width: 80px;
+        height: 2px;
+        left: 700px;
+        top: 1281px;
+        background: #ececec;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .description {
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        color: #707070;
+      }
+    }
+  }
 }

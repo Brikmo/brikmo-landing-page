@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 import logo from "../img/logo.svg";
 import HeroImage from "../components/Images/HeroImage";
 import ButtonApp from "../components/Images/ButtonApp";
@@ -8,14 +9,19 @@ import ButtonPlay from "../components/Images/ButtonPlay";
 
 import Layout from "../components/Layout";
 
-export const IndexPageTemplate = ({ title, subheading, mainContentTitle }) => (
+export const IndexPageTemplate = ({
+  title,
+  subheading,
+  mainContentTitle,
+  contents,
+}) => (
   <div className="page">
     <div className="hero-section">
-      <div className="container is-fluid header">
+      <div className="container header">
         <img src={logo} alt="Brikmo" title="Brikmo" />
-        <button className="button">Primary button</button>
+        <button className="button">Get the App</button>
       </div>
-      <div className="container is-fluid content-wrapper">
+      <div className="container content-wrapper">
         <div class="columns is-desktop is-tablet">
           <div class="column">
             <div className="content">
@@ -35,6 +41,38 @@ export const IndexPageTemplate = ({ title, subheading, mainContentTitle }) => (
     </div>
     <div className="container main-content">
       <h1>{mainContentTitle}</h1>
+      {contents.map((content) => (
+        <>
+          <div className="text-block columns">
+            {content.imagePosition === "left" && (
+              <div className="column is-6">
+                <Img
+                  fluid={content.image.childImageSharp.fluid}
+                  className="image"
+                />
+              </div>
+            )}
+            <div className="text column is-6">
+              <div className="title">{content.title}</div>
+              <div className="divider"></div>
+              <div className="description">{content.text}</div>
+            </div>
+            {content.imagePosition === "right" && (
+              <div className="column is-6">
+                <Img
+                  fluid={content.image.childImageSharp.fluid}
+                  className="image"
+                />
+              </div>
+            )}
+          </div>
+          {content.imagePosition === "bottom" && (
+            <div className="image column">
+              <Img fluid={content.image.childImageSharp.fluid} />
+            </div>
+          )}
+        </>
+      ))}
     </div>
   </div>
 );
@@ -60,6 +98,7 @@ const IndexPage = ({ data }) => {
         mainContentTitle={frontmatter.mainContentTitle}
         title={frontmatter.title}
         subheading={frontmatter.subheading}
+        contents={frontmatter.contents}
       />
     </Layout>
   );
@@ -82,6 +121,18 @@ export const pageQuery = graphql`
         title
         subheading
         mainContentTitle
+        contents {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1920) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          title
+          text
+          imagePosition
+        }
       }
     }
   }
