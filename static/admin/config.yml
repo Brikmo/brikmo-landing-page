@@ -78,6 +78,6 @@ collections:
               fields:
                 [
                   { label: Label, name: label, widget: string },
-                  { label: Url, name: url, widget: url },
+                  { label: Url, name: url, widget: string },
                 ],
             }
