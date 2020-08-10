@@ -1,0 +1,149 @@
+@import "../sizes.scss";
+
+.formContent {
+  position: relative;
+  background: #ffebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url("../../img/form-background.svg");
+  background-position: top left;
+  z-index: 1;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 24px;
+    background-image: url("../../img/form-section-corner-bottom.svg");
+    background-repeat: no-repeat;
+    right: 170px;
+    bottom: -30px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      right: 10px;
+    }
+  }
+  .divider {
+    width: 80px;
+    height: 2px;
+    background: #afafaf;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  .title {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 50px;
+    color: #000000;
+    margin-top: 60px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      font-size: 36px;
+      line-height: 50px;
+      margin-top: 40px;
+    }
+  }
+  .formArea {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    max-width: 960px;
+    min-height: 628px;
+    margin-bottom: 60px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      width: 90%;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 110px;
+      height: 75.48px;
+      background-image: url("../../img/form-top-background.svg");
+      background-repeat: no-repeat;
+      top: -30px;
+      left: -40px;
+      z-index: -1;
+    }
+    .formField {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      padding: 30px;
+      @media screen and (max-width: $tablet-breakpoint) {
+        width: 100%;
+      }
+      &.message-box {
+        width: 100%;
+      }
+      label {
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+        margin-bottom: 35px;
+      }
+      input {
+        width: 100%;
+        height: 58px;
+        background: #ffffff;
+        border: 1px solid #c3cad9;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        padding: 20px;
+      }
+      textarea {
+        width: 100%;
+        height: 203px;
+        background: #ffffff;
+        border: 1px solid #c3cad9;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        padding: 20px;
+      }
+    }
+    button {
+      width: 224px;
+      height: 58px;
+      background: #eb3349;
+      border-radius: 8px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      border: 0px;
+      justify-self: flex-end;
+      align-self: flex-end;
+      margin-top: 30px;
+    }
+  }
+}

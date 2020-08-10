@@ -8,6 +8,7 @@ import ButtonApp from "../components/Images/ButtonApp";
 import ButtonPlay from "../components/Images/ButtonPlay";
 
 import Layout from "../components/Layout";
+import ContactForm from "../components/ContactForm";
 
 export const IndexPageTemplate = ({
   title,
@@ -99,25 +100,7 @@ export const IndexPageTemplate = ({
         </>
       ))}
     </div>
-    <div className="form-content">
-      <p className="title">{formSectionTitle}</p>
-      <div className="divider"></div>
-      <div className="form-area">
-        <div className="form-field">
-          <label>Full Name</label>
-          <input name="full-name" type="text" placeholder="Julia William" />
-        </div>
-        <div className="form-field">
-          <label>E-mail Address</label>
-          <input name="email" type="email" placeholder="you@example.com" />
-        </div>
-        <div className="form-field message-box">
-          <label>Your message*</label>
-          <textarea name="email" placeholder="Type your message..." />
-          <button>Submit</button>
-        </div>
-      </div>
-    </div>
+    <ContactForm formSectionTitle={formSectionTitle} />
   </div>
 );
 
