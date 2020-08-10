@@ -1,0 +1,60 @@
+.appButtons {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .buttonApp {
+    width: 145.67px;
+    height: 46px;
+    margin-right: 10px;
+  }
+}
+.socials {
+  margin-top: 30px;
+  .socialIcon {
+    margin: 6px;
+  }
+}
+
+.copyright {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.hashtag {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+
+  .link {
+    margin: 25px;
+    flex-basis: 30%;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111111;
+    text-decoration: none;
+    a {
+      color: #111111;
+      text-decoration: none;
+    }
+  }
+}

@@ -291,6 +291,9 @@ body {
     background-repeat: no-repeat;
     right: 170px;
     bottom: -30px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      right: 10px;
+    }
   }
   .divider {
     width: 80px;
@@ -325,6 +328,7 @@ body {
     background-color: white;
     max-width: 960px;
     min-height: 628px;
+    margin-bottom: 60px;
     @media screen and (max-width: $tablet-breakpoint) {
       width: 90%;
     }

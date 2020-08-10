@@ -73,6 +73,14 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://brikmo.us17.list-manage.com/subscribe/post?u=a1c61668677e34f5daba5c07b&amp;id=49141cc039", // string; add your MC list endpoint here; see instructions below
+        timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };

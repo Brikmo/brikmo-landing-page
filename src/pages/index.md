@@ -51,4 +51,17 @@ contents:
     additionalText: null
     links: null
     image: /img/illustration4.png
+footerLinks:
+  - label: Blog
+    url: /blog
+  - label: Careers
+    url: /careers
+  - label: Contact
+    url: /contact
+  - label: Terms of Service
+    url: /terms
+  - label: Privacy Policy
+    url: /privacy
+  - label: Support
+    url: /support    
 ---
