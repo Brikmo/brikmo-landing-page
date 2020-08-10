@@ -49,21 +49,24 @@ collections:
                   {
                     label: "Image Position",
                     name: imagePosition,
-                    widget: string,
+                    widget: "select",
+                    options: ["left", "right", "bottom"],
                   },
                   {
                     label: Additional Text,
                     name: additionalText,
                     widget: string,
+                    required: false,
                   },
                   {
                     label: Links,
                     name: links,
                     widget: list,
+                    required: false,
                     fields:
                       [
                         { label: Label, name: label, widget: string },
-                        { label: Url, name: url, widget: url },
+                        { label: Url, name: url, widget: string },
                       ],
                   },
                 ],
