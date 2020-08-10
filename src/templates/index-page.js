@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainContentTitle,
   contents,
+  formSectionTitle,
 }) => (
   <div className="page">
     <div className="hero-section">
@@ -22,8 +23,8 @@ export const IndexPageTemplate = ({
         <button className="button">Get the App</button>
       </div>
       <div className="container content-wrapper">
-        <div class="columns is-desktop is-tablet">
-          <div class="column">
+        <div className="columns is-desktop is-tablet">
+          <div className="column">
             <div className="content">
               <h1>{title}</h1>
               <p>{subheading}</p>
@@ -33,7 +34,7 @@ export const IndexPageTemplate = ({
               </div>
             </div>
           </div>
-          <div class="column">
+          <div className="column">
             <HeroImage />
           </div>
         </div>
@@ -43,36 +44,79 @@ export const IndexPageTemplate = ({
       <h1>{mainContentTitle}</h1>
       {contents.map((content) => (
         <>
-          <div className="text-block columns">
+          <div
+            className={`text-block columns ${
+              content.imagePosition === "left" && "reverse"
+            }`}
+          >
             {content.imagePosition === "left" && (
               <div className="column is-6">
-                <Img
-                  fluid={content.image.childImageSharp.fluid}
-                  className="image"
-                />
+                {content.image && (
+                  <Img
+                    fluid={content.image.childImageSharp.fluid}
+                    className="image"
+                  />
+                )}
               </div>
             )}
             <div className="text column is-6">
               <div className="title">{content.title}</div>
               <div className="divider"></div>
               <div className="description">{content.text}</div>
+              {content.additionalText && (
+                <div className="additional-text">{content.additionalText}</div>
+              )}
+              {content.links && (
+                <div className="links">
+                  {content.links.map((link) => (
+                    <div className="link">
+                      <a href={link.url} target="_blank" rel="noreferrer">
+                        {link.label}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
             {content.imagePosition === "right" && (
               <div className="column is-6">
-                <Img
-                  fluid={content.image.childImageSharp.fluid}
-                  className="image"
-                />
+                {content.image && (
+                  <Img
+                    fluid={content.image.childImageSharp.fluid}
+                    className="image"
+                  />
+                )}
               </div>
             )}
           </div>
           {content.imagePosition === "bottom" && (
             <div className="image column">
-              <Img fluid={content.image.childImageSharp.fluid} />
+              {content.image && (
+                <Img fluid={content.image.childImageSharp.fluid} />
+              )}
             </div>
           )}
         </>
       ))}
+    </div>
+    <div className="form-content">
+      <p className="title">{formSectionTitle}</p>
+      <div className="divider"></div>
+      <div className="form-area">
+        <div className="form-field">
+          <label>Full Name</label>
+          <input name="full-name" type="text" placeholder="Julia William" />
+        </div>
+        <div className="form-field">
+          <label>E-mail Address</label>
+          <input name="email" type="email" placeholder="you@example.com" />
+        </div>
+        <div className="form-field">
+          <label>Your message*</label>
+          <textarea name="email" placeholder="Type your message..." />
+          <button>Submit</button>
+        </div>
+      </div>
     </div>
   </div>
 );
@@ -91,7 +135,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-
+  console.log(frontmatter.contents);
   return (
     <Layout>
       <IndexPageTemplate
@@ -99,6 +143,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         subheading={frontmatter.subheading}
         contents={frontmatter.contents}
+        formSectionTitle={frontmatter.formSectionTitle}
       />
     </Layout>
   );
@@ -121,17 +166,16 @@ export const pageQuery = graphql`
         title
         subheading
         mainContentTitle
+        formSectionTitle
         contents {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1920) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           title
           text
           imagePosition
+          additionalText
+          links {
+            label
+            url
+          }
         }
       }
     }

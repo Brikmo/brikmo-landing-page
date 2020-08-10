@@ -168,15 +168,41 @@ body {
   .text-block {
     margin-top: 90px;
     margin-bottom: 90px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      margin-top: 45px;
+      margin-bottom: 45px;
+      &.reverse {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
     .image {
       max-width: 480px;
       margin: auto;
+      @media screen and (max-width: $tablet-breakpoint) {
+        margin: 20px;
+      }
+    }
+    .divider {
+      width: 80px;
+      height: 2px;
+      left: 700px;
+      top: 1281px;
+      background: #ececec;
+      margin-bottom: 40px;
+      @media screen and (max-width: $tablet-breakpoint) {
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
     }
     .text {
       display: flex;
       justify-content: center;
       flex-direction: column;
       padding: 50px;
+      @media screen and (max-width: $tablet-breakpoint) {
+        padding: 30px;
+      }
       .title {
         font-family: "Avenir Next";
         font-style: normal;
@@ -185,15 +211,10 @@ body {
         line-height: 60px;
         letter-spacing: 0.2px;
         color: #000000;
-      }
-      .divider {
-        width: 80px;
-        height: 2px;
-        left: 700px;
-        top: 1281px;
-        background: #ececec;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        @media screen and (max-width: $tablet-breakpoint) {
+          font-size: 24px;
+          line-height: 50px;
+        }
       }
       .description {
         font-family: "Avenir Next";
@@ -202,7 +223,168 @@ body {
         font-size: 20px;
         line-height: 35px;
         color: #707070;
+        @media screen and (max-width: $tablet-breakpoint) {
+          font-size: 18px;
+          line-height: 35px;
+        }
       }
+      .additional-text {
+        margin-top: 40px;
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 600;
+        color: #000000;
+        font-size: 24px;
+        line-height: 35px;
+        @media screen and (max-width: $tablet-breakpoint) {
+          font-size: 18px;
+          line-height: 35px;
+        }
+      }
+      .links {
+        margin-top: 40px;
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        @media screen and (max-width: $tablet-breakpoint) {
+          width: 50%;
+        }
+        .link {
+          font-family: "Avenir Next";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 35px;
+          text-decoration-line: underline;
+          a {
+            color: #eb3349;
+          }
+          @media screen and (max-width: $tablet-breakpoint) {
+            font-size: 18px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-content {
+  background: #ffebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url("../img/form-background.svg");
+  background-position: top left;
+  z-index: 1;
+  .divider {
+    width: 80px;
+    height: 2px;
+    background: #afafaf;
+    margin-bottom: 40px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+  }
+  .title {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 50px;
+    color: #000000;
+    margin-top: 60px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      font-size: 36px;
+      line-height: 50px;
+      margin-top: 40px;
+    }
+  }
+  .form-area {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 960px;
+    height: 628px;
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 110px;
+      height: 75.48px;
+      background-image: url("../img/form-top-background.svg");
+      background-repeat: no-repeat;
+      top: -30px;
+      left: -40px;
+      z-index: -1;
+    }
+    .form-field {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      label {
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+        margin-bottom: 35px;
+      }
+      input {
+        width: 401px;
+        height: 58px;
+        background: #ffffff;
+        border: 1px solid #c3cad9;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        padding: 20px;
+      }
+      textarea {
+        width: 872px;
+        height: 203px;
+        background: #ffffff;
+        border: 1px solid #c3cad9;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: "Avenir Next";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        padding: 20px;
+      }
+    }
+    button {
+      width: 224px;
+      height: 58px;
+      background: #eb3349;
+      border-radius: 8px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      border: 0px;
+      justify-self: flex-end;
+      align-self: flex-end;
+      margin-top: 30px;
     }
   }
 }
