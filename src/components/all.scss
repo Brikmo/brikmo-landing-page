@@ -270,6 +270,7 @@ body {
 }
 
 .form-content {
+  position: relative;
   background: #ffebeb;
   display: flex;
   flex-direction: column;
@@ -280,6 +281,17 @@ body {
   background-image: url("../img/form-background.svg");
   background-position: top left;
   z-index: 1;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 24px;
+    background-image: url("../img/form-section-corner-bottom.svg");
+    background-repeat: no-repeat;
+    right: 170px;
+    bottom: -30px;
+  }
   .divider {
     width: 80px;
     height: 2px;
@@ -311,8 +323,11 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    width: 960px;
-    height: 628px;
+    max-width: 960px;
+    min-height: 628px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      width: 90%;
+    }
     &::before {
       content: "";
       position: absolute;
@@ -329,6 +344,14 @@ body {
       position: relative;
       display: flex;
       flex-direction: column;
+      width: 50%;
+      padding: 30px;
+      @media screen and (max-width: $tablet-breakpoint) {
+        width: 100%;
+      }
+      &.message-box {
+        width: 100%;
+      }
       label {
         font-family: "Avenir Next";
         font-style: normal;
@@ -339,7 +362,7 @@ body {
         margin-bottom: 35px;
       }
       input {
-        width: 401px;
+        width: 100%;
         height: 58px;
         background: #ffffff;
         border: 1px solid #c3cad9;
@@ -354,7 +377,7 @@ body {
         padding: 20px;
       }
       textarea {
-        width: 872px;
+        width: 100%;
         height: 203px;
         background: #ffffff;
         border: 1px solid #c3cad9;

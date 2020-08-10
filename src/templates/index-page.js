@@ -111,7 +111,7 @@ export const IndexPageTemplate = ({
           <label>E-mail Address</label>
           <input name="email" type="email" placeholder="you@example.com" />
         </div>
-        <div className="form-field">
+        <div className="form-field message-box">
           <label>Your message*</label>
           <textarea name="email" placeholder="Type your message..." />
           <button>Submit</button>
