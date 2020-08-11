@@ -27,7 +27,7 @@ contents:
         url: http://www.apple.com
       - label: Android
         url: http://www.apple.com
-    image: /img/chemex.jpg
+    image: /img/illustration2.png
   - title: Receive & Rate Your Delivery.
     text: >
       Once items are purchased, your receipt is shown to you. When the items are
@@ -37,7 +37,7 @@ contents:
     imagePosition: left
     additionalText: null
     links: null
-    image: /img/blog-index.jpg
+    image: /img/illustration3.png
   - title: Safety first during COVID-19.
     text: >
       With coronavirus having a large impact on our society, both socially and
@@ -50,7 +50,7 @@ contents:
     imagePosition: bottom
     additionalText: null
     links: null
-    image: /img/chemex.jpg
+    image: /img/jumbotron.jpg
 footerLinks:
   - label: Blog
     url: /blog
