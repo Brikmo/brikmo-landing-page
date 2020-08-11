@@ -1,5 +1,7 @@
 ---
 templateKey: index-page
+seoTitle: Brikmo Landing Page Title
+seoDescription: Brikmo Landing Page Description
 title: Get what you need. Delivered.
 subheading: Get local retail delivery help from others in your area.
 mainContentTitle: How Brikmo Works
