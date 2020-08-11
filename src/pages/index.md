@@ -50,7 +50,7 @@ contents:
     imagePosition: bottom
     additionalText: null
     links: null
-    image: /img/jumbotron.jpg
+    image: /img/illustration4.png
 footerLinks:
   - label: Blog
     url: /blog
