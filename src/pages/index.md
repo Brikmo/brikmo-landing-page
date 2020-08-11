@@ -13,7 +13,7 @@ contents:
     imagePosition: left
     additionalText: null
     links: null
-    image: /img/illustration1.png
+    image: /img/blog-index.jpg
   - title: Hire a Helper.
     text: >
       Select one of the Helpers that have applied to deliver your order.
@@ -27,7 +27,7 @@ contents:
         url: http://www.apple.com
       - label: Android
         url: http://www.apple.com
-    image: /img/illustration2.png
+    image: /img/chemex.jpg
   - title: Receive & Rate Your Delivery.
     text: >
       Once items are purchased, your receipt is shown to you. When the items are
@@ -37,7 +37,7 @@ contents:
     imagePosition: left
     additionalText: null
     links: null
-    image: /img/illustration3.png
+    image: /img/blog-index.jpg
   - title: Safety first during COVID-19.
     text: >
       With coronavirus having a large impact on our society, both socially and
@@ -50,7 +50,7 @@ contents:
     imagePosition: bottom
     additionalText: null
     links: null
-    image: /img/illustration4.png
+    image: /img/chemex.jpg
 footerLinks:
   - label: Blog
     url: /blog
