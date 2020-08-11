@@ -25,6 +25,8 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
+          - { label: "SEO Title", name: seoTitle, widget: string }
+          - { label: "SEO Description", name: seoDescription, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: Subheading, name: subheading, widget: string }
           - {
