@@ -13,7 +13,7 @@ contents:
     imagePosition: left
     additionalText: null
     links: null
-    image: /img/blog-index.jpg
+    image: /img/illustration1.png
   - title: Hire a Helper.
     text: >
       Select one of the Helpers that have applied to deliver your order.
