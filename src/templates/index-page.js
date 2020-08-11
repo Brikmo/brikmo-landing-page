@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
 import logo from "../img/logo.svg";
 import HeroImage from "../components/Images/HeroImage";
 import ButtonApp from "../components/Images/ButtonApp";
@@ -9,6 +8,7 @@ import ButtonPlay from "../components/Images/ButtonPlay";
 
 import Layout from "../components/Layout";
 import ContactForm from "../components/ContactForm";
+import Contents from "../components/Contents";
 
 export const IndexPageTemplate = ({
   title,
@@ -41,65 +41,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
-    <div className="container main-content">
-      <h1>{mainContentTitle}</h1>
-      {contents.map((content) => (
-        <>
-          <div
-            className={`text-block columns ${
-              content.imagePosition === "left" && "reverse"
-            }`}
-          >
-            {content.imagePosition === "left" && (
-              <div className="column is-6">
-                {content.image && (
-                  <Img
-                    fluid={content.image.childImageSharp.fluid}
-                    className="image"
-                  />
-                )}
-              </div>
-            )}
-            <div className="text column is-6">
-              <div className="title">{content.title}</div>
-              <div className="divider"></div>
-              <div className="description">{content.text}</div>
-              {content.additionalText && (
-                <div className="additional-text">{content.additionalText}</div>
-              )}
-              {content.links && (
-                <div className="links">
-                  {content.links.map((link) => (
-                    <div className="link">
-                      <a href={link.url} target="_blank" rel="noreferrer">
-                        {link.label}
-                      </a>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-            {content.imagePosition === "right" && (
-              <div className="column is-6">
-                {content.image && (
-                  <Img
-                    fluid={content.image.childImageSharp.fluid}
-                    className="image"
-                  />
-                )}
-              </div>
-            )}
-          </div>
-          {content.imagePosition === "bottom" && (
-            <div className="image column">
-              {content.image && (
-                <Img fluid={content.image.childImageSharp.fluid} />
-              )}
-            </div>
-          )}
-        </>
-      ))}
-    </div>
+    <Contents mainContentTitle={mainContentTitle} contents={contents} />
     <ContactForm formSectionTitle={formSectionTitle} />
   </div>
 );
@@ -154,6 +96,13 @@ export const pageQuery = graphql`
           text
           imagePosition
           additionalText
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1920) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           links {
             label
             url

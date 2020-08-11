@@ -1,18 +1,23 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { graphql, StaticQuery } from "gatsby";
 import Footer from "../components/Footer";
 import "./all.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
-const TemplateWrapper = ({ children }) => {
+const LayoutTemplate = ({ children, data }) => {
   const { title, description } = useSiteMetadata();
+  const { frontmatter } = data.markdownRemark;
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{frontmatter.seoTitle || title}</title>
+        <meta
+          name="description"
+          content={frontmatter.seoDescription || description}
+        />
 
         <link
           rel="apple-touch-icon"
@@ -40,7 +45,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={frontmatter.seoTitle || title} />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
@@ -53,4 +58,20 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
-export default TemplateWrapper;
+export default function TemplateWrapper({ children }) {
+  return (
+    <StaticQuery
+      query={graphql`
+        query SiteMetaData {
+          markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+            frontmatter {
+              seoTitle
+              seoDescription
+            }
+          }
+        }
+      `}
+      render={(data) => <LayoutTemplate data={data}>{children}</LayoutTemplate>}
+    />
+  );
+}
