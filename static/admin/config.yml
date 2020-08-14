@@ -105,25 +105,25 @@ collections:
                   { label: "Body", name: "body", widget: "markdown" },
                 ],
             }
-          - file: "src/pages/privacy/index.md"
-            label: "Privacy Page"
-            name: "privacy"
-            fields:
-              - {
-                  label: "Template Key",
-                  name: "templateKey",
-                  widget: "hidden",
-                  default: "privacy-page",
-                }
-              - { label: "Title", name: "title", widget: "string" }
-              - {
-                  label: "Contents",
-                  name: "contents",
-                  widget: "list",
-                  required: true,
-                  fields:
-                    [
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Body", name: "body", widget: "markdown" },
-                    ],
-                }
+      - file: "src/pages/privacy/index.md"
+        label: "Privacy Page"
+        name: "privacy"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "privacy-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Contents",
+              name: "contents",
+              widget: "list",
+              required: true,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Body", name: "body", widget: "markdown" },
+                ],
+            }
