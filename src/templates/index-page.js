@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   mainContentTitle,
   contents,
   formSectionTitle,
+  showImages = true,
 }) => (
   <div className="page">
     <div className="hero-section">
@@ -26,14 +27,12 @@ export const IndexPageTemplate = ({
               <h1>{title}</h1>
               <p>{subheading}</p>
               <div className="app-buttons">
-                <ButtonApp />
-                <ButtonPlay />
+                {showImages && <ButtonApp />}
+                {showImages && <ButtonPlay />}
               </div>
             </div>
           </div>
-          <div className="column">
-            <HeroImage />
-          </div>
+          <div className="column">{showImages && <HeroImage />}</div>
         </div>
       </div>
     </div>

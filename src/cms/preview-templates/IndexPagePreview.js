@@ -13,6 +13,7 @@ const IndexPagePreview = ({ entry }) => {
         subheading={data.subheading}
         contents={data.contents || []}
         formSectionTitle={data.formSectionTitle}
+        showImages={false}
       />
     );
   } else {
