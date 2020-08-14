@@ -25,8 +25,18 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: "SEO Title", name: seoTitle, widget: string }
-          - { label: "SEO Description", name: seoDescription, widget: string }
+          - {
+              label: "SEO Title",
+              name: seoTitle,
+              widget: string,
+              required: true,
+            }
+          - {
+              label: "SEO Description",
+              name: seoDescription,
+              widget: string,
+              required: true,
+            }
           - { label: Title, name: title, widget: string }
           - { label: Subheading, name: subheading, widget: string }
           - {
@@ -93,8 +103,18 @@ collections:
               widget: "hidden",
               default: "terms-page",
             }
-          - { label: "SEO Title", name: seoTitle, widget: string }
-          - { label: "SEO Description", name: seoDescription, widget: string }
+          - {
+              label: "SEO Title",
+              name: seoTitle,
+              widget: string,
+              required: true,
+            }
+          - {
+              label: "SEO Description",
+              name: seoDescription,
+              widget: strin,
+              required: true,
+            }
           - { label: "Title", name: "title", widget: "string" }
           - {
               label: "Contents",
@@ -117,8 +137,18 @@ collections:
               widget: "hidden",
               default: "privacy-page",
             }
-          - { label: "SEO Title", name: seoTitle, widget: string }
-          - { label: "SEO Description", name: seoDescription, widget: string }
+          - {
+              label: "SEO Title",
+              name: seoTitle,
+              widget: string,
+              required: true,
+            }
+          - {
+              label: "SEO Description",
+              name: seoDescription,
+              widget: string,
+              required: true,
+            }
           - { label: "Title", name: "title", widget: "string" }
           - {
               label: "Contents",
