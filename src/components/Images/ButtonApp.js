@@ -14,7 +14,7 @@ const Image = () => {
       }
     }
   `);
-
+  if (!data) return null;
   return (
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
