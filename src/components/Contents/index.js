@@ -16,7 +16,7 @@ const Contents = ({ contents, mainContentTitle }) => {
           >
             {content.imagePosition === "left" && (
               <div className="column is-6">
-                {content.image && (
+                {content.image && content.image.childImageSharp && (
                   <Img
                     fluid={content.image.childImageSharp.fluid}
                     className={style.image}
