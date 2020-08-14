@@ -14,13 +14,13 @@ const PageTemplate = ({ title, contents }) => {
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
-            <div className="column is-6 is-offset-3">
+            <div className={`column is-6 is-offset-3 ${style.contents}`}>
               {contents &&
                 contents.map((content) => (
                   <div className={style.content}>
-                    <p className={style.contentTitle}>{content.title}</p>
+                    <p className={style.title}>{content.title}</p>
                     <ReactMarkdown
-                      className={style.contentBody}
+                      className={style.body}
                       source={content.body}
                     />
                   </div>
