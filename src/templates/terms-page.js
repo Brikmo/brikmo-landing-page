@@ -5,11 +5,13 @@ import Layout from "../components/Layout";
 import PageTemplate from "../components/PageTemplate";
 
 const TermsPage = ({ data }) => {
-  console.log(data);
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout
+      title={post.frontmatter.seoTitle}
+      description={post.frontmatter.seoDescription}
+    >
       <PageTemplate
         title={post.frontmatter.title}
         contents={post.frontmatter.contents}
@@ -29,6 +31,8 @@ export const termsPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        seoTitle
+        seoDescription
         contents {
           title
           body

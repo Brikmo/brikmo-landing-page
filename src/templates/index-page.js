@@ -57,7 +57,10 @@ IndexPageTemplate.propTypes = {
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
-    <Layout>
+    <Layout
+      title={frontmatter.seoTitle}
+      description={frontmatter.seoDescription}
+    >
       <IndexPageTemplate
         mainContentTitle={frontmatter.mainContentTitle}
         title={frontmatter.title}
@@ -87,6 +90,8 @@ export const pageQuery = graphql`
         subheading
         mainContentTitle
         formSectionTitle
+        seoTitle
+        seoDescription
         contents {
           title
           text

@@ -1,5 +1,7 @@
 ---
 templateKey: terms-page
+seoTitle: Brikmo Landing Page Title
+seoDescription: Brikmo Landing Page Description
 path: /terms
 title: Terms and Conditions
 contents:
@@ -16,4 +18,3 @@ contents:
 
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
-about terms
