@@ -93,8 +93,17 @@ collections:
               widget: "hidden",
               default: "terms-page",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: Contents,
+              name: contents,
+              widget: list,
+              required: true,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: "Body", name: "body", widget: "markdown" }
+                ],
+            },
       - file: "src/pages/privacy/index.md"
         label: "Privacy"
         name: "privacy"
@@ -106,4 +115,14 @@ collections:
               default: "privacy-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+            label: Contents,
+            name: contents,
+            widget: list,
+            required: true,
+            fields:
+              [
+                { label: Title, name: title, widget: string },
+                { label: "Body", name: "body", widget: "markdown" }
+              ],
+            },
