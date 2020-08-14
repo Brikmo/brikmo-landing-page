@@ -1,6 +1,6 @@
 ---
-templateKey: about-page
-path: /about
-title: about
+templateKey: privacy-page
+path: /privacy
+title: privacy
 ---
-about page
+privacy page
