@@ -10,8 +10,12 @@ import style from "./style.module.scss";
 
 const FooterTemplate = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
+  console.log(frontmatter.footerLinks);
   return (
-    <footer className="footer has-background-white">
+    <footer
+      className="footer has-background-white"
+      style={{ borderTop: "1px solid #E1E4EB" }}
+    >
       <div className="container">
         <div className="columns">
           <div className="contacts column">

@@ -49,7 +49,7 @@ const Contents = ({ contents, mainContentTitle }) => {
             </div>
             {content.imagePosition === "right" && (
               <div className="column is-6">
-                {content.image && (
+                {content.image && content.image.childImageSharp && (
                   <Img
                     fluid={content.image.childImageSharp.fluid}
                     className={style.image}
@@ -60,7 +60,7 @@ const Contents = ({ contents, mainContentTitle }) => {
           </div>
           {content.imagePosition === "bottom" && (
             <div className={`container ${style.image} ${style.bottom}`}>
-              {content.image && (
+              {content.image && content.image.childImageSharp && (
                 <Img fluid={content.image.childImageSharp.fluid} />
               )}
             </div>
