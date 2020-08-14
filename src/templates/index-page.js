@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import logo from "../img/logo.svg";
 import HeroImage from "../components/Images/HeroImage";
 import ButtonApp from "../components/Images/ButtonApp";
 import ButtonPlay from "../components/Images/ButtonPlay";
-
 import Layout from "../components/Layout";
 import ContactForm from "../components/ContactForm";
 import Contents from "../components/Contents";
+import Header from "../components/Header";
 
 export const IndexPageTemplate = ({
   title,
@@ -19,10 +18,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="page">
     <div className="hero-section">
-      <div className="container header">
-        <img src={logo} alt="Brikmo" title="Brikmo" />
-        <button className="button">Get the App</button>
-      </div>
+      <Header />
       <div className="container content-wrapper">
         <div className="columns is-desktop is-tablet">
           <div className="column">

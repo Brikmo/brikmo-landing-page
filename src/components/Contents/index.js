@@ -1,5 +1,6 @@
 import React from "react";
 import Img from "gatsby-image";
+import ReactMarkdown from "react-markdown";
 import style from "./style.module.scss";
 
 const Contents = ({ contents, mainContentTitle }) => {
@@ -26,7 +27,9 @@ const Contents = ({ contents, mainContentTitle }) => {
             <div className={`${style.text} column is-6`}>
               <div className={style.title}>{content.title}</div>
               <div className={style.divider}></div>
-              <div className={style.description}>{content.text}</div>
+              <ReactMarkdown className={style.description}>
+                {content.text}
+              </ReactMarkdown>
               {content.additionalText && (
                 <div className={style.additionalText}>
                   {content.additionalText}

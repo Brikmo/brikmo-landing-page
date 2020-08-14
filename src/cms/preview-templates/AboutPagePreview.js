@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { AboutPageTemplate } from "../../templates/privacy-page";
+import { PrivacyPageTemplate } from "../../templates/privacy-page";
 
 const AboutPagePreview = ({ entry, widgetFor }) => (
-  <AboutPageTemplate
+  <PrivacyPageTemplate
     title={entry.getIn(["data", "title"])}
     content={widgetFor("body")}
   />

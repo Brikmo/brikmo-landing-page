@@ -6,4 +6,3 @@ contents:
   - title: First Paragraph
     body: Markdown text with [links](http://www.apple.com)
 ---
-about terms

@@ -1,0 +1,29 @@
+@import "../sizes.scss";
+
+.hero {
+  margin-top: 30px;
+  background-color: #ffebeb;
+  background-image: url("../../img/page-header-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 491px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
+    color: #000000;
+    @media screen and (max-width: $tablet-breakpoint) {
+      font-size: 36px;
+      line-height: 50px;
+    }
+  }
+  @media screen and (max-width: $tablet-breakpoint) {
+    height: 282px;
+  }
+}
