@@ -84,7 +84,7 @@ collections:
                 ],
             }
       - file: "src/pages/terms/index.md"
-        label: "Terms"
+        label: "Terms Page"
         name: "terms"
         fields:
           - {
@@ -93,36 +93,37 @@ collections:
               widget: "hidden",
               default: "terms-page",
             }
-          - {
-              label: Contents,
-              name: contents,
-              widget: list,
-              required: true,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: "Body", name: "body", widget: "markdown" }
-                ],
-            },
-      - file: "src/pages/privacy/index.md"
-        label: "Privacy"
-        name: "privacy"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "privacy-page",
-            }
           - { label: "Title", name: "title", widget: "string" }
           - {
-            label: Contents,
-            name: contents,
-            widget: list,
-            required: true,
+              label: "Links",
+              name: "links",
+              widget: "list",
+              required: false,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Body", name: "body", widget: "markdown" },
+                ],
+            }
+          - file: "src/pages/privacy/index.md"
+            label: "Privacy Page"
+            name: "privacy"
             fields:
-              [
-                { label: Title, name: title, widget: string },
-                { label: "Body", name: "body", widget: "markdown" }
-              ],
-            },
+              - {
+                  label: "Template Key",
+                  name: "templateKey",
+                  widget: "hidden",
+                  default: "privacy-page",
+                }
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Links",
+                  name: "links",
+                  widget: "list",
+                  required: false,
+                  fields:
+                    [
+                      { label: "Title", name: "title", widget: "string" },
+                      { label: "Body", name: "body", widget: "markdown" },
+                    ],
+                }
