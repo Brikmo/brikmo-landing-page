@@ -13,7 +13,7 @@ public_folder: /img
 
 collections:
   - name: "pages"
-    label: "Pages"
+    label: "Pages" 
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -83,3 +83,11 @@ collections:
                   { label: Url, name: url, widget: string },
                 ],
             }
+    files:
+      - file: "src/pages/terms/index.md"
+        label: "Terms"
+        name: "terms"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
