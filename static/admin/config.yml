@@ -95,10 +95,10 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - {
-              label: "Links",
-              name: "links",
+              label: "Contents",
+              name: "contents",
               widget: "list",
-              required: false,
+              required: true,
               fields:
                 [
                   { label: "Title", name: "title", widget: "string" },
@@ -117,10 +117,10 @@ collections:
                 }
               - { label: "Title", name: "title", widget: "string" }
               - {
-                  label: "Links",
-                  name: "links",
+                  label: "Contents",
+                  name: "contents",
                   widget: "list",
-                  required: false,
+                  required: true,
                   fields:
                     [
                       { label: "Title", name: "title", widget: "string" },
