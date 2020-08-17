@@ -49,7 +49,7 @@ contents:
       both our Customers and our Helpers, as well as maintaining safe conditions
       by following CDC guidelines.  For more details, [click
       here](https://www.apple.com).
-    imagePosition: bottom
+    imagePosition: right
     additionalText: null
     links: null
     image: /img/illustration4.png
