@@ -56,8 +56,6 @@ contents:
 footerLinks:
   - label: Blog
     url: /blog
-  - label: Support
-    url: /support
   - label: Contact
     url: /contact
   - label: Careers
@@ -66,4 +64,6 @@ footerLinks:
     url: /privacy
   - label: Terms of Service
     url: /terms
+  - label: Support
+    url: /support
 ---
