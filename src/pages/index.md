@@ -56,10 +56,10 @@ contents:
 footerLinks:
   - label: Blog
     url: /blog
-  - label: Privacy Policy
-    url: /privacy
   - label: Contact
     url: /contact
+  - label: Privacy Policy
+    url: /privacy
   - label: Terms of Service
     url: /terms
   - label: Careers
