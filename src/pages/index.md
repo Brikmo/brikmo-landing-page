@@ -40,7 +40,7 @@ contents:
     additionalText: null
     links: null
     image: /img/illustration3.png
-  - title: Safety first during COVID-19.
+  - title: Safety first during COVID-19....
     text: >
       With coronavirus having a large impact on our society, both socially and
       economically, Brikmo has taken the conscious steps to ensure our users'
