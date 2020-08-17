@@ -49,21 +49,21 @@ contents:
       both our Customers and our Helpers, as well as maintaining safe conditions
       by following CDC guidelines.  For more details, [click
       here](https://www.apple.com).
-    imagePosition: right
+    imagePosition: bottom
     additionalText: null
     links: null
     image: /img/illustration4.png
 footerLinks:
   - label: Blog
     url: /blog
-  - label: Careers
-    url: /careers
+  - label: Privacy Policy
+    url: /privacy
   - label: Contact
     url: /contact
   - label: Terms of Service
     url: /terms
-  - label: Privacy Policy
-    url: /privacy
+  - label: Careers
+    url: /careers
   - label: Support
     url: /support
 ---
