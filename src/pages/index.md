@@ -58,12 +58,12 @@ footerLinks:
     url: /blog
   - label: Contact
     url: /contact
+  - label: Careers
+    url: /careers
   - label: Privacy Policy
     url: /privacy
   - label: Terms of Service
     url: /terms
-  - label: Careers
-    url: /careers
   - label: Support
     url: /support
 ---
