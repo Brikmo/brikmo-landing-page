@@ -54,12 +54,12 @@ contents:
     links: null
     image: /img/illustration4.png
 footerLinks:
+  - label: Careers
+    url: /careers
   - label: Blog
     url: /blog
   - label: Contact
     url: /contact
-  - label: Careers
-    url: /careers
   - label: Terms of Service
     url: /terms
   - label: Privacy Policy
