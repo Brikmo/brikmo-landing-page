@@ -161,3 +161,33 @@ collections:
                   { label: "Body", name: "body", widget: "markdown" },
                 ],
             }
+  - name: "about"
+    label: "About"
+    folder: "src/pages/about"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "about-page",
+        }
+      - { label: "Path", name: "path", widget: "hidden", default: "/about" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "support"
+    label: "Support Pages"
+    folder: "src/pages/support"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "support-page",
+        }
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
