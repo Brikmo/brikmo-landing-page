@@ -55,15 +55,15 @@ contents:
     image: /img/illustration4.png
 footerLinks:
   - label: Contact
-    url: '"/contact"'
+    url: /contact
   - label: Terms of Service
-    url: '"/terms"'
+    url: /terms
   - label: Blog
-    url: '"/blog"'
+    url: /blog
   - label: Privacy Policy
-    url: '"/privacy"'
+    url: /privacy
   - label: Careers
-    url: '"/careers"'
+    url: /careers
   - label: Support
-    url: '"/support"'
+    url: /support
 ---
