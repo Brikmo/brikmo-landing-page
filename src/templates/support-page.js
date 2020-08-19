@@ -1,75 +1,27 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
-
-export const SupportPageTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet,
-}) => {
-  const PostContent = contentComponent || Content;
-
-  return (
-    <section className="section">
-      {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-SupportPageTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
-};
+import PageTemplate from "../components/PageTemplate";
 
 const SupportPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
-      <SupportPageTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
+    <Layout
+      title={post.frontmatter.title}
+      description={post.frontmatter.description}
+    >
+      <PageTemplate
         title={post.frontmatter.title}
+        singleContent={post.rawMarkdownBody}
       />
     </Layout>
   );
 };
 
 SupportPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
+  data: PropTypes.object.isRequired,
 };
 
 export default SupportPage;
@@ -78,7 +30,7 @@ export const pageQuery = graphql`
   query SupportPageByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
+      rawMarkdownBody
       frontmatter {
         title
         description

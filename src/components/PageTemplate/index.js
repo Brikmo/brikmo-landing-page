@@ -1,10 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 import ReactMarkdown from "react-markdown";
 import Header from "../Header";
 import style from "./style.module.scss";
 
-const PageTemplate = ({ title, contents }) => {
+const PageTemplate = ({ title, contents, singleContent }) => {
   return (
     <div className="page">
       <Header inverted />
@@ -15,6 +14,14 @@ const PageTemplate = ({ title, contents }) => {
         <div className="container">
           <div className="columns">
             <div className={`column is-6 is-offset-3 ${style.contents}`}>
+              {singleContent && (
+                <div className={style.content}>
+                  <ReactMarkdown
+                    className={style.body}
+                    source={singleContent}
+                  />
+                </div>
+              )}
               {contents &&
                 contents.map((content) => (
                   <div className={style.content}>
@@ -31,12 +38,6 @@ const PageTemplate = ({ title, contents }) => {
       </section>
     </div>
   );
-};
-
-PageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
 };
 
 export default PageTemplate;

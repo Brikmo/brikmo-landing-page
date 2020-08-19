@@ -10,7 +10,6 @@ import style from "./style.module.scss";
 
 const FooterTemplate = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter.footerLinks);
   return (
     <footer
       className="footer has-background-white"

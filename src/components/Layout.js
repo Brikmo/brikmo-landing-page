@@ -53,7 +53,6 @@ const LayoutTemplate = ({ children, title, description }) => {
 };
 
 export default function TemplateWrapper({ children, title, description }) {
-  console.log(title, description);
   return (
     <StaticQuery
       query={graphql`
