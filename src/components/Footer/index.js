@@ -10,7 +10,6 @@ import style from "./style.module.scss";
 
 const FooterTemplate = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter);
   return (
     <footer
       className="footer has-background-white"
@@ -65,7 +64,7 @@ const FooterTemplate = ({ data }) => {
             <ul className={style.links}>
               {frontmatter.footerLinks &&
                 frontmatter.footerLinks.map((link) => (
-                  <li className={style.link}>
+                  <li className={style.link} key={link.label}>
                     <Link
                       to={
                         link.url.charAt(0) === "/" ? link.url : `/${link.url}`
