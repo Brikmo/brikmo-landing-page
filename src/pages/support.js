@@ -1,8 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
+import { graphql } from "gatsby";
+import SupportPageTemplate from "../components/SupportPageTemplate";
 
 export const SearchPageTemplate = ({ contents }) => {
   return <section className="section"></section>;
@@ -11,11 +9,7 @@ export const SearchPageTemplate = ({ contents }) => {
 const SearchPage = ({ data }) => {
   const { allMarkdownRemark } = data;
 
-  return (
-    <Layout>
-      <SearchPageTemplate contents={allMarkdownRemark.edges} />
-    </Layout>
-  );
+  return <SupportPageTemplate contents={allMarkdownRemark.edges} />;
 };
 
 export default SearchPage;
