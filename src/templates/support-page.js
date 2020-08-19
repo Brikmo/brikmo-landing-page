@@ -50,11 +50,14 @@ const SupportPage = ({ data }) => {
       <SupportPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.title}
+        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.title}`} />
+            <meta
+              name="description"
+              content={`${post.frontmatter.description}`}
+            />
           </Helmet>
         }
         title={post.frontmatter.title}
@@ -78,6 +81,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
       }
     }
   }
