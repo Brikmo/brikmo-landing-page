@@ -1,15 +1,16 @@
 import React from "react";
 import { graphql } from "gatsby";
 import SupportPageTemplate from "../components/SupportPageTemplate";
-
-export const SearchPageTemplate = ({ contents }) => {
-  return <section className="section"></section>;
-};
+import Layout from "../components/Layout";
 
 const SearchPage = ({ data }) => {
   const { allMarkdownRemark } = data;
 
-  return <SupportPageTemplate contents={allMarkdownRemark.edges} />;
+  return (
+    <Layout>
+      <SupportPageTemplate contents={allMarkdownRemark.edges} />
+    </Layout>
+  );
 };
 
 export default SearchPage;
@@ -24,7 +25,9 @@ export const pageQuery = graphql`
           frontmatter {
             description
             title
-            path
+          }
+          fields {
+            slug
           }
           rawMarkdownBody
         }
