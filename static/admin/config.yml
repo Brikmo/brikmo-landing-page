@@ -173,6 +173,18 @@ collections:
           widget: "hidden",
           default: "support-page",
         }
+        - {
+          label: "SEO Title",
+          name: seoTitle,
+          widget: string,
+          required: true,
+        }
+      - {
+          label: "SEO Description",
+          name: seoDescription,
+          widget: string,
+          required: true,
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
