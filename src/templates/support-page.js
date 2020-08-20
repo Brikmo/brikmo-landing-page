@@ -9,8 +9,8 @@ const SupportPage = ({ data }) => {
 
   return (
     <Layout
-      title={post.frontmatter.title}
-      description={post.frontmatter.description}
+      title={post.frontmatter.seoTitle}
+      description={post.frontmatter.seoDescription}
     >
       <PageTemplate
         title={post.frontmatter.title}
@@ -32,6 +32,8 @@ export const pageQuery = graphql`
       id
       rawMarkdownBody
       frontmatter {
+        seoTitle
+        seoDescription
         title
         description
       }
