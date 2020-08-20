@@ -1,6 +1,6 @@
 ---
 templateKey: support-page
-path: /customer-app
+path: /support/customer-app
 title: Title Page
 description: Page description
 ---
