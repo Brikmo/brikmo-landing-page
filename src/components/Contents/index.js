@@ -1,20 +1,19 @@
 import React from "react";
 import Img from "gatsby-image";
 import ReactMarkdown from "react-markdown";
+import { useBreakpoint } from "gatsby-plugin-breakpoints";
+
 import style from "./style.module.scss";
 
 const Contents = ({ contents, mainContentTitle }) => {
+  const breakpoints = useBreakpoint();
   return (
     <div className={`container ${style.mainContent}`}>
       <h1>{mainContentTitle}</h1>
       {contents.map((content) => (
         <>
-          <div
-            className={`${style.textBlock} columns ${
-              content.imagePosition === "left" && style.reverse
-            }`}
-          >
-            {content.imagePosition === "left" && (
+          <div className={`${style.textBlock} columns`}>
+            {content.imagePosition === "left" && !breakpoints.sm && (
               <div className="column is-6">
                 {content.image && content.image.childImageSharp && (
                   <Img
@@ -47,7 +46,7 @@ const Contents = ({ contents, mainContentTitle }) => {
                 </div>
               )}
             </div>
-            {content.imagePosition === "right" && (
+            {(breakpoints.sm || content.imagePosition === "right") && (
               <div className="column is-6">
                 {content.image && content.image.childImageSharp && (
                   <Img
