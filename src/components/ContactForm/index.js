@@ -26,7 +26,7 @@ export default function ContactForm({ formSectionTitle }) {
   };
 
   return (
-    <div className={style.formContent}>
+    <div className={style.formContent} id="contact">
       <p className={style.title}>{formSectionTitle}</p>
       <div className={style.divider}></div>
       <div className={style.formArea}>
