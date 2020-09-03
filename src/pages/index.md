@@ -55,7 +55,7 @@ contents:
     image: /img/illustration4.png
 footerLinks:
   - label: Contact
-    url: /contact
+    url: "#contact"
   - label: Terms of Service
     url: /terms
   - label: Blog
