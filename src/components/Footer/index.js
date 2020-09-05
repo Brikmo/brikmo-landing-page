@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
+import scrollToElement from "scroll-to-element";
 import logo from "../../img/logo.svg";
 import medium from "../../img/social/medium.svg";
 import tiktok from "../../img/social/tiktok.svg";
@@ -10,6 +11,23 @@ import style from "./style.module.scss";
 
 const FooterTemplate = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
+
+  function scroller(target, offset) {
+    scrollToElement(target, {
+      offset,
+    });
+  }
+
+  function handleMenuLinkClick(l, e) {
+    if (typeof window !== "undefined" && l.url.includes("#")) {
+      const [anchorPath, anchor] = l.url.split("#");
+      if (window.location.pathname === anchorPath) {
+        e.preventDefault();
+        scroller(`#${anchor}`, -80);
+      }
+    }
+  }
+
   return (
     <footer
       className="footer has-background-white"
@@ -66,6 +84,7 @@ const FooterTemplate = ({ data }) => {
                 frontmatter.footerLinks.map((link) => (
                   <li className={style.link} key={link.label}>
                     <Link
+                      onClick={(e) => handleMenuLinkClick(link, e)}
                       to={
                         link.url.charAt(0) === "/" ? link.url : `/${link.url}`
                       }
