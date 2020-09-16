@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-seoTitle: Brikmo Landing Page Title
+seoTitle: Brikmo | Your Local Delivery App
 seoDescription: Brikmo Landing Page Description
 title: Get what you need. Delivered.
 subheading: Get local retail delivery help from others in your area.
