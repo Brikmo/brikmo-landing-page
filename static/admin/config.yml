@@ -191,13 +191,13 @@ collections:
         file: "src/pages/general.md"
         fields:
           - {
-              label: "iOS App link",
+              label: "iOS App url",
               name: "iosAppLink",
               widget: string,
               required: false,
             }
           - {
-              label: "Android App link",
+              label: "Android App url",
               name: "androidAppLink",
               widget: string,
               required: false,
