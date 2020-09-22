@@ -183,20 +183,22 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "general"
-    label: "General"
-    file: "src/pages/general.md"
-    create: true
-    fields:
-      - {
-          label: "iOS App link",
-          name: "iosAppLink",
-          widget: string,
-          required: false,
-        }
-      - {
-          label: "Android App link",
-          name: "androidAppLink",
-          widget: string,
-          required: false,
-        }
+  - name: "configurations"
+    label: "Configurations"
+    files:
+      - label: "General"
+        name: "general"
+        file: "src/pages/general.md"
+        fields:
+          - {
+              label: "iOS App link",
+              name: "iosAppLink",
+              widget: string,
+              required: false,
+            }
+          - {
+              label: "Android App link",
+              name: "androidAppLink",
+              widget: string,
+              required: false,
+            }
