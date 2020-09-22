@@ -71,10 +71,14 @@ const FooterTemplate = ({ data }) => {
             </div>
             <div className={style.appButtons}>
               <div className={style.buttonApp}>
-                <ButtonApp />
+                <a href={frontmatter.iosAppLink}>
+                  <ButtonApp />
+                </a>
               </div>
               <div className={style.buttonApp}>
-                <ButtonPlay />
+                <a href={frontmatter.androidAppLink}>
+                  <ButtonPlay />
+                </a>
               </div>
             </div>
           </div>
@@ -106,8 +110,10 @@ export default function Footer() {
     <StaticQuery
       query={graphql`
         query Footer {
-          markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+          markdownRemark {
             frontmatter {
+              iosAppLink
+              androidAppLink
               footerLinks {
                 label
                 url
