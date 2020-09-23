@@ -16,6 +16,8 @@ export const IndexPageTemplate = ({
   contents,
   formSectionTitle,
   showImages = true,
+  androidAppLink,
+  iosAppLink,
 }) => (
   <div className="page">
     <div className="hero-section">
@@ -27,8 +29,16 @@ export const IndexPageTemplate = ({
               <h1>{title}</h1>
               <p>{subheading}</p>
               <div className="app-buttons">
-                {showImages && <ButtonApp />}
-                {showImages && <ButtonPlay />}
+                {showImages && (
+                  <a href={iosAppLink}>
+                    <ButtonApp />
+                  </a>
+                )}
+                {showImages && (
+                  <a href={androidAppLink}>
+                    <ButtonPlay />
+                  </a>
+                )}
               </div>
             </div>
           </div>
@@ -66,6 +76,8 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         contents={frontmatter.contents}
         formSectionTitle={frontmatter.formSectionTitle}
+        iosAppLink={frontmatter.iosAppLink}
+        androidAppLink={frontmatter.androidAppLink}
       />
     </Layout>
   );
@@ -91,6 +103,8 @@ export const pageQuery = graphql`
         formSectionTitle
         seoTitle
         seoDescription
+        iosAppLink
+        androidAppLink
         contents {
           title
           text
