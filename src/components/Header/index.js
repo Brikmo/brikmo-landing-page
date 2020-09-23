@@ -9,11 +9,11 @@ const Header = ({ inverted }) => {
       <Link to="/">
         <img src={logo} alt="Brikmo" title="Brikmo" />
       </Link>
-      <Link to="/">
+      <a href="#open-modal">
         <button className={`${style.button} ${inverted && style.inverted}`}>
           Get the App
         </button>
-      </Link>
+      </a>
     </div>
   );
 };

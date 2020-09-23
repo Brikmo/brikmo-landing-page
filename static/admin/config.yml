@@ -191,6 +191,12 @@ collections:
         file: "src/pages/general.md"
         fields:
           - {
+              label: "Download Dialog Text",
+              name: "downloadText",
+              widget: string,
+              required: false,
+            }
+          - {
               label: "iOS App url",
               name: "iosAppLink",
               widget: string,

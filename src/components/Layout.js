@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery, withPrefix } from "gatsby";
 import Footer from "../components/Footer";
+import AppDownloadDialog from "../components/AppDownloadDialog";
 import "./all.scss";
-import { withPrefix } from "gatsby";
 
 const LayoutTemplate = ({ children, title, description }) => {
   return (
@@ -48,6 +48,7 @@ const LayoutTemplate = ({ children, title, description }) => {
       </Helmet>
       <div>{children}</div>
       <Footer />
+      <AppDownloadDialog />
     </div>
   );
 };
