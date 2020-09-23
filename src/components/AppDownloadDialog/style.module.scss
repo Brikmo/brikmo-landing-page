@@ -1,8 +1,6 @@
 @import "../sizes.scss";
 
 .modalWindow {
-  font-family: "Avenir Next";
-  font-style: normal;
   position: fixed;
   background-color: rgba(200, 200, 200, 0.75);
   top: 0;
@@ -58,6 +56,9 @@
 }
 
 .modalWindow h1 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
   font-size: 150%;
   margin: 0 0 15px;
 }
