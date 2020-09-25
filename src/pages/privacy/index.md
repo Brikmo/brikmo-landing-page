@@ -10,7 +10,7 @@ seoDescription: This Privacy Policy (“Privacy Policy”) describes how Brikmo,
 path: /privacy
 title: Privacy Policy
 contents:
-  - title: This policy is effective as of September 30, 2020.
+  - title: "Last Updated: September 30, 2020."
     body: >-
       1. Introduction
 
