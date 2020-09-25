@@ -6,7 +6,7 @@ seoDescription: These Terms of Service (“Terms”) govern your use of the Brik
   websites (or portions thereof) or mobile applications that are operated by
   Brikmo.
 path: /terms
-title: Terms and Conditions
+title: Terms of Service
 contents:
   - title: "Last updated: September 30, 2020"
     body: >-
