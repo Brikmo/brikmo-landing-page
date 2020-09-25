@@ -57,11 +57,11 @@ footerLinks:
   - label: Contact
     url: /#contact
   - label: Terms of Service
-    url: /terms
+    url: /terms-of-service
   - label: Blog
     url: /blog
   - label: Privacy Policy
-    url: /privacy
+    url: /privacy-policy
   - label: Careers
     url: /careers
   - label: Support
