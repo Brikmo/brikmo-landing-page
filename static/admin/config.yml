@@ -83,16 +83,6 @@ collections:
                   },
                 ],
             }
-          - {
-              label: Footer Links,
-              name: footerLinks,
-              widget: list,
-              fields:
-                [
-                  { label: Label, name: label, widget: string },
-                  { label: Url, name: url, widget: string },
-                ],
-            }
       - file: "src/pages/terms/index.md"
         label: "Terms Page"
         name: "terms"
@@ -207,4 +197,14 @@ collections:
               name: "androidAppLink",
               widget: string,
               required: false,
+            }
+          - {
+              label: Footer Links,
+              name: footerLinks,
+              widget: list,
+              fields:
+                [
+                  { label: Label, name: label, widget: string },
+                  { label: Url, name: url, widget: string },
+                ],
             }

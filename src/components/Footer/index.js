@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, graphql, StaticQuery } from "gatsby";
+import { Link, graphql, StaticQuery, useStaticQuery } from "gatsby";
 import scrollToElement from "scroll-to-element";
 import logo from "../../img/logo.svg";
 import medium from "../../img/social/medium.svg";
@@ -10,7 +10,7 @@ import ButtonPlay from "../../components/Images/ButtonPlay";
 import style from "./style.module.scss";
 
 const FooterTemplate = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter } = data.allMarkdownRemark.edges[0].node;
 
   function scroller(target, offset) {
     scrollToElement(target, {
@@ -109,14 +109,20 @@ export default function Footer() {
   return (
     <StaticQuery
       query={graphql`
-        query Footer {
-          markdownRemark {
-            frontmatter {
-              iosAppLink
-              androidAppLink
-              footerLinks {
-                label
-                url
+        query {
+          allMarkdownRemark(
+            filter: { fileAbsolutePath: { regex: "/general.md$/" } }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  androidAppLink
+                  iosAppLink
+                  footerLinks {
+                    label
+                    url
+                  }
+                }
               }
             }
           }
