@@ -65,6 +65,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
+  const { node } = data.allMarkdownRemark.edges[0];
   return (
     <Layout
       title={frontmatter.seoTitle}
@@ -76,8 +77,8 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         contents={frontmatter.contents}
         formSectionTitle={frontmatter.formSectionTitle}
-        iosAppLink={frontmatter.iosAppLink}
-        androidAppLink={frontmatter.androidAppLink}
+        iosAppLink={node.frontmatter.iosAppLink}
+        androidAppLink={node.frontmatter.androidAppLink}
       />
     </Layout>
   );
@@ -95,6 +96,18 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/general.md$/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            androidAppLink
+            iosAppLink
+          }
+        }
+      }
+    }
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
@@ -103,8 +116,6 @@ export const pageQuery = graphql`
         formSectionTitle
         seoTitle
         seoDescription
-        iosAppLink
-        androidAppLink
         contents {
           title
           text
