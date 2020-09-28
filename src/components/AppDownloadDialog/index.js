@@ -6,7 +6,7 @@ import style from "./style.module.scss";
 
 const AppDownloadDialogTemplate = ({ data }) => {
   console.log(data);
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter } = data.allMarkdownRemark.edges[0].node;
   return (
     <div id="open-modal" className={style.modalWindow}>
       <div>
@@ -35,12 +35,18 @@ export default function AppDownloadDialog() {
   return (
     <StaticQuery
       query={graphql`
-        query AppDownloadDialog {
-          markdownRemark {
-            frontmatter {
-              iosAppLink
-              androidAppLink
-              downloadText
+        query {
+          allMarkdownRemark(
+            filter: { fileAbsolutePath: { regex: "/general.md$/" } }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  androidAppLink
+                  iosAppLink
+                  downloadText
+                }
+              }
             }
           }
         }
