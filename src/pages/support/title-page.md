@@ -23,17 +23,17 @@ To confirm safety and quality service protocols, please make sure you complete t
 
 
 
-Follow CDC guidelines, especially by wearing facial coverings and gloves (when necessary)
+* Follow CDC guidelines, especially by wearing facial coverings and gloves (when necessary)
+* Follow social distancing rules by staying at least 6-feet away from others
+* Sterilize, wash, and/or protect hands while shopping.
+* Pay attention to retailer instructions at every shopping location.
+* Make sure to shop alone, to allow focus on the Customer’s requested order
 
-Follow social distancing rules by staying at least 6-feet away from others
 
-Sterilize, wash, and/or protect hands while shopping.
-
-Pay attention to retailer instructions at every shopping location.
-
-Make sure to shop alone, to allow focus on the Customer’s requested order
 
 Important: Keep frozen or refrigerated items last on the pickup list so that the items remain at or close to their required temperatures.
+
+
 
 When transporting cold or hot items, it is strongly recommended that insulated bags and coolers are used to make sure your items stay at the correct temperature while in transit from the store to the Customer.
 
