@@ -10,6 +10,10 @@ description: "Brikmo does not sell, offer to sell or solicit sales of alcohol:
   available for sale by licensed alcohol retailers, and request the delivery of
   the product by a Helper of legal age."
 ---
+Brikmo does not sell, offer to sell or solicit sales of alcohol: our Service enables you to search locally for alcohol and other products available for sale by licensed alcohol retailers, and request the delivery of the product by a Helper of legal age.
+
+
+
 The Service is not meant to facilitate any improper furnishing of inducements by any manufacturer, importer, supplier, wholesaler or distributor of alcohol beverages to any retailer of alcoholic beverages or to facilitate any improper exclusionary practices by any alcohol beverage licensee. When you request an alcohol-product, the results will be based on your location and whether there are Helper’s that are eligible to deliver alcohol to you available. Our Service may be limited or not available at all in some places due to local law or other restrictions.
 
 
@@ -34,9 +38,9 @@ If you or a loved one may be abusing alcohol and are looking for support, you ar
 
 
 
-* THE SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION
-* SMART RECOVERY
-* ALCOHOLICS ANONYMOUS
+* [THE SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION](https://www.samhsa.gov/find-help/national-helpline)
+* [SMART RECOVERY](https://www.smartrecovery.org/)
+* [ALCOHOLICS ANONYMOUS](https://www.aa.org/pages/en_US/need-help-with-a-drinking-problem)
 
 
 
