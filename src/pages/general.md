@@ -6,11 +6,11 @@ footerLinks:
   - label: Contact
     url: /#contact
   - label: Terms of Service
-    url: /terms/
+    url: /terms
   - label: Blog
     url: /blog
   - label: Privacy Policy
-    url: /privacy/
+    url: /privacy
   - label: Careers
     url: /careers
   - label: Support
