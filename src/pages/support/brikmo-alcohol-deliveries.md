@@ -4,7 +4,7 @@ seoTitle: Brikmo Alcohol Deliveries
 seoDescription: "When you request an alcohol-product on Brikmo, the results will
   be based on your location and whether there are Helper’s that are eligible to
   deliver alcohol to you available. "
-title: Brikmo Alcohol Deliveries
+title: Alcohol Deliveries
 description: "Brikmo does not sell, offer to sell or solicit sales of alcohol:
   our Service enables you to search locally for alcohol and other products
   available for sale by licensed alcohol retailers, and request the delivery of
