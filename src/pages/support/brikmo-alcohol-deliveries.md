@@ -16,6 +16,8 @@ The Service is not meant to facilitate any improper furnishing of inducements by
 
 Retailer/Helper right to refuse orders
 
+
+
 A Helper or a Retailer may refuse your order for any reason. If the product you want is not available, the Retailer will notify your Helper and offer a reasonable substitute or you can cancel your order. If you accept the substitution, the order total will be adjusted accordingly.
 
 
@@ -25,6 +27,8 @@ Sometimes the law requires Retailers to limit the number or type of product(s) i
 
 
 Get support
+
+
 
 If you or a loved one may be abusing alcohol and are looking for support, you are not alone. The following organizations can help. Please note that Brikmo is not directly affiliated with any of the organizations below. If you are experiencing a life threatening emergency, please dial 911.
 
