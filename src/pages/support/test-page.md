@@ -10,22 +10,13 @@ seoDescription: "Coronavirus disease 2019 (COVID-19) is a respiratory illness
 title: COVID-19 Notice and Safety
 description: Coronavirus disease 2019 (COVID-19)
 ---
-
-
 * Information provided via [CDC.gov](https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/food-grocery-drivers.html)
 
   * Coronavirus disease 2019 (COVID-19) is a respiratory illness caused by a virus called SARS-CoV-2. Symptoms often include cough, shortness of breath, fever, chills, muscle pain, sore throat, or new loss of taste or smell. Our understanding of how the virus spreads is evolving as we learn more about it, so check the CDC website for the latest information. The virus is thought to spread mainly from person-to-person:
-
-
-
 * Between people who are in close contact with one another (within about 6 feet)
 * Through respiratory droplets produced when an infected person coughs, sneezes, or talks
 
-
-
 Recent studies indicate that the virus can be spread by people who are not showing symptoms. It may be possible that a person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes. This is not thought to be the main way the virus spreads, but we are still learning more about this virus. Older adults and people of any age who have serious underlying medical conditions may be at higher risk for more serious complications from COVID-19.
-
-
 
 Potential sources of exposure include having close contact with individuals with COVID-19 when picking up or delivering food or groceries, or by touching surfaces touched or handled by a person with COVID-19.
 
@@ -78,6 +69,6 @@ Clean and Disinfect
   * Clean and disinfect commonly touched surfaces at the beginning and end of each shift, particularly if the vehicle is also used by other drivers, following the directions on the cleaning product’s label. Clean surfaces that are visibly dirty with detergent or soap and water prior to disinfection. Frequently touched surfaces include the steering wheel, gearshift, signaling levers, door handles, and seatbelt buckles.
   * Wipe down items such as pens and electronic signature pads/mobile devices if shared with a delivery recipient after each use.
   * Appropriate disinfectants to use for hard non-porous surfaces include:
-  * * EPA’s Registered Antimicrobial Products for Use Against Novel Coronavirus SARS-CoV-2external icon
+  * * EPA’s Registered Antimicrobial Products for Use Against Novel Coronavirus SARS-CoV-2
     * Diluted household bleach solutions prepared according to the manufacturer’s label for disinfection, if appropriate for the surface
     * Alcohol solutions with at least 70% alcohol
