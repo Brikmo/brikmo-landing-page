@@ -1,5 +1,6 @@
 ---
 templateKey: privacy-page
+path: /privacy-policy
 seoTitle: Brikmo Privacy Policy
 seoDescription: This Privacy Policy (“Privacy Policy”) describes how Brikmo,
   Inc. will gather, use, and maintain your Personal Information on the Brikmo
@@ -7,7 +8,6 @@ seoDescription: This Privacy Policy (“Privacy Policy”) describes how Brikmo,
   information. Your privacy is important to us. It is Brikmo, Inc.'s policy to
   respect your privacy regarding any information we may collect from you through
   our app, Brikmo.
-path: /privacy
 title: Privacy Policy
 contents:
   - title: "Last Updated: September 30, 2020."
