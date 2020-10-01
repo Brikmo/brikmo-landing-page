@@ -8,8 +8,7 @@ mainContentTitle: How Brikmo Works
 formSectionTitle: Get in touch
 contents:
   - title: Create a Pickup/Shopping Order.
-    text: >
-      Pick from either a Pickup or Shopping order, and list the item or items
+    text: Choose from either a Pickup or Shopping order, and list the item or items
       you need right away. You can include item details to ensure the right
       items are selected.
     imagePosition: left
