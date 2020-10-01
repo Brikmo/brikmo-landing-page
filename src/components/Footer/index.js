@@ -23,7 +23,7 @@ const FooterTemplate = ({ data }) => {
       const [anchorPath, anchor] = l.url.split("#");
       if (window.location.pathname === anchorPath) {
         e.preventDefault();
-        scroller(`#${anchor}`, -80);
+        return scroller(`#${anchor}`, -80);
       }
     }
   }
@@ -90,7 +90,11 @@ const FooterTemplate = ({ data }) => {
                     <Link
                       onClick={(e) => handleMenuLinkClick(link, e)}
                       to={
-                        link.url.charAt(0) === "/" ? link.url : `/${link.url}`
+                        link.url.includes("http")
+                          ? link.url
+                          : link.url.charAt(0) === "/"
+                          ? link.url
+                          : `/${link.url}`
                       }
                     >
                       {link.label}

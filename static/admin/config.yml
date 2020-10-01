@@ -211,3 +211,27 @@ collections:
                   { label: Url, name: url, widget: string },
                 ],
             }
+          - {
+              label: Medium Account,
+              name: medium,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: TikTok Account,
+              name: tiktok,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: Twitter Account,
+              name: twitter,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: Copyright Label,
+              name: copyright,
+              widget: string,
+              required: false,
+            }
