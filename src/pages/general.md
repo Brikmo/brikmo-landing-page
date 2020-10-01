@@ -6,11 +6,11 @@ footerLinks:
   - label: Contact
     url: /#contact
   - label: Terms of Service
-    url: https://www.brikmo.co/terms/
+    url: /terms
   - label: Blog
     url: /blog
   - label: Privacy Policy
-    url: https://www.brikmo.co/privacy/
+    url: /privacy
   - label: Careers
     url: /careers
   - label: Support
