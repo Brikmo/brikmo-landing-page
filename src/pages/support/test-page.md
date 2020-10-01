@@ -1,6 +1,6 @@
 ---
 templateKey: support-page
-path: test-page
+path: /covid-19-notice-and-safety
 seoTitle: COVID-19 Notice and Safety
 seoDescription: "Coronavirus disease 2019 (COVID-19) is a respiratory illness
   caused by a virus called SARS-CoV-2. Symptoms often include cough, shortness
