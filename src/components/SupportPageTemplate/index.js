@@ -30,7 +30,7 @@ const SupportPageTemplate = ({ contents }) => {
                 )
                 .map((content) => (
                   <div className={style.boxResults}>
-                    <Link to={content.node.fields.slug}>
+                    <Link to={content.node.frontmatter.path}>
                       {content.node.frontmatter.title}
                     </Link>
                   </div>

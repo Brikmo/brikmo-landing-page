@@ -36,6 +36,7 @@ export const pageQuery = graphql`
         seoDescription
         title
         description
+        path
       }
     }
   }
