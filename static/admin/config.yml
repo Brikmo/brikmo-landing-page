@@ -153,6 +153,41 @@ collections:
                   { label: "Body", name: "body", widget: "markdown" },
                 ],
             }
+      - file: "src/pages/careers/index.md"
+        label: "Careers Page"
+        name: "careers"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "careers-page",
+            }
+          - { label: "Path", name: path, widget: string, required: true }
+          - {
+              label: "SEO Title",
+              name: seoTitle,
+              widget: string,
+              required: true,
+            }
+          - {
+              label: "SEO Description",
+              name: seoDescription,
+              widget: string,
+              required: true,
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Contents",
+              name: "contents",
+              widget: "list",
+              required: true,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Body", name: "body", widget: "markdown" },
+                ],
+            }
   - name: "support"
     label: "Support Pages"
     folder: "src/pages/support"
