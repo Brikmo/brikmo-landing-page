@@ -6,7 +6,7 @@ footerLinks:
   - label: Contact
     url: /#contact
   - label: Terms of Service
-    url: /terms
+    url: /termss
   - label: Blog
     url: /blog
   - label: Privacy Policy
