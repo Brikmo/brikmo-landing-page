@@ -93,6 +93,7 @@ collections:
               widget: "hidden",
               default: "terms-page",
             }
+          - { label: "Path", name: path, widget: string, required: true }
           - {
               label: "SEO Title",
               name: seoTitle,
@@ -127,6 +128,7 @@ collections:
               widget: "hidden",
               default: "privacy-page",
             }
+          - { label: "Path", name: path, widget: string, required: true }
           - {
               label: "SEO Title",
               name: seoTitle,
@@ -163,6 +165,7 @@ collections:
           widget: "hidden",
           default: "support-page",
         }
+      - { label: "Path", name: path, widget: string, required: true }
       - { label: "SEO Title", name: seoTitle, widget: string, required: true }
       - {
           label: "SEO Description",
