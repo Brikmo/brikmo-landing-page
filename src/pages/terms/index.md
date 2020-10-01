@@ -1,11 +1,11 @@
 ---
 templateKey: terms-page
+path: /terms-of-service
 seoTitle: Brikmo Terms of Service
 seoDescription: These Terms of Service (“Terms”) govern your use of the Brikmo
   services, including Brikmo’s website, Brikmo’s mobile applications, and any
   websites (or portions thereof) or mobile applications that are operated by
   Brikmo.
-path: /terms
 title: Terms of Service
 contents:
   - title: "Last updated: September 30, 2020"
