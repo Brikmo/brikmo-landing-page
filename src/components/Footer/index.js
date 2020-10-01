@@ -39,7 +39,7 @@ const FooterTemplate = ({ data }) => {
             <img src={logo} alt="Brikmo" title="Brikmo" />
             <div className={style.socials}>
               <a
-                href=""
+                href={frontmatter.medium}
                 target="_blank"
                 rel="noreferrer"
                 className={style.socialIcon}
@@ -47,7 +47,7 @@ const FooterTemplate = ({ data }) => {
                 <img src={medium} alt="Medium" title="Medium" />
               </a>
               <a
-                href=""
+                href={frontmatter.tiktok}
                 target="_blank"
                 rel="noreferrer"
                 className={style.socialIcon}
@@ -55,7 +55,7 @@ const FooterTemplate = ({ data }) => {
                 <img src={tiktok} alt="Tik Tok" title="Tik Tok" />
               </a>
               <a
-                href=""
+                href={frontmatter.twitter}
                 target="_blank"
                 rel="noreferrer"
                 className={style.socialIcon}
@@ -64,9 +64,7 @@ const FooterTemplate = ({ data }) => {
               </a>
             </div>
             <div>
-              <p className={style.copyright}>
-                Copyright © Brikmo, Inc. All rights reserved.
-              </p>
+              <p className={style.copyright}>{frontmatter.copyright}</p>
               <p className={style.hashtag}>#TGBTG</p>
             </div>
             <div className={style.appButtons}>
@@ -122,6 +120,10 @@ export default function Footer() {
                 frontmatter {
                   androidAppLink
                   iosAppLink
+                  medium
+                  tiktok
+                  twitter
+                  copyright
                   footerLinks {
                     label
                     url
