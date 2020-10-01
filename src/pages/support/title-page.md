@@ -1,6 +1,6 @@
 ---
 templateKey: support-page
-path: customer-app
+path: /shopping-and-safety-guidelines
 seoTitle: Shopping & Safety Guidelines
 seoDescription: Brikmo is following national and local authorities, as well as
   health and safety experts, to actively monitor national health situations and
