@@ -8,7 +8,7 @@ footerLinks:
   - label: Terms of Service
     url: /terms-of-service
   - label: Blog
-    url: /blog
+    url: https://medium.com/@brikmo
   - label: Privacy Policy
     url: /privacy-policy
   - label: Careers
