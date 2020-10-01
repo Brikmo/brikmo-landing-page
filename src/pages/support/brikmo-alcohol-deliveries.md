@@ -1,5 +1,6 @@
 ---
 templateKey: support-page
+path: /alcohol-deliveries
 seoTitle: Brikmo Alcohol Deliveries
 seoDescription: "When you request an alcohol-product on Brikmo, the results will
   be based on your location and whether there are Helper’s that are eligible to
