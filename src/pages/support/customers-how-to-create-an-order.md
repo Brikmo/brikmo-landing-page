@@ -1,7 +1,7 @@
 ---
 templateKey: support-page
 path: /customers-how-to-create-an-order
-seoTitle: "Customers: How To Create An Order"
+seoTitle: "Customers: How To Create An Order On Brikmo"
 seoDescription: Brikmo allows all Customers on the app to request pickup
   services or products from retailers and have them delivered right to your
   door. Here’s how to create an order.
