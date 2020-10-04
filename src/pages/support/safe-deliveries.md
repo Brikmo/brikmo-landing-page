@@ -1,7 +1,7 @@
 ---
 templateKey: support-page
 path: /safe-deliveries
-seoTitle: Safe Deliveries
+seoTitle: Safe Deliveries On Brikmo
 seoDescription: In these times of coronavirus (COVID-19), it is important to
   know about the potential risks that deliveries could pose to Brikmo Customers
   and Helpers. Check out our best advice for reducing risk by keeping your
