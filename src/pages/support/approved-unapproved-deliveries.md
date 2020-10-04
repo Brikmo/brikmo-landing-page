@@ -1,7 +1,7 @@
 ---
 templateKey: support-page
 path: /approved-unapproved-deliveries
-seoTitle: Approved and Unapproved Deliveries
+seoTitle: Approved and Unapproved Deliveries On Brikmo
 seoDescription: Brikmo is a mobile app platform that lets Customers seek
   personal shopping/pickup and delivery services from local Helpers, with all
   products being purchased or picked up from retailers in their area. There are
