@@ -25,8 +25,6 @@ description: "Brikmo is a mobile app platform that lets Customers seek personal
 ---
 Brikmo is a mobile app platform that lets Customers seek personal shopping/pickup and delivery services from local Helpers, with all products being purchased or picked up from retailers in their area. There are a multitude of products that can be purchased directly from retail locations by a Customer, but there are a limited number of items that are approved and unapproved for delivery on the Brikmo platform. This is due to many reasons, which may include; legal restrictions (both locally and generally), safety, transportability, etc.. The unapproved list will provide information and guidance regarding mailing potentially hazardous, restricted, or perishable matter to domestic destinations.  For more info, review Publication 52 - Hazardous, Restricted, and Perishable Mail. Please note: This list is subject to change over time. It is recommended that this list is reviewed periodically for appropriate usage and understanding of the Brikmo platform.
 
-
-
 **Approved for Delivery:**
 
 * Hot/Cold Food and Groceries
@@ -52,4 +50,4 @@ Brikmo is a mobile app platform that lets Customers seek personal shopping/picku
 * Knives and select Sharp Instruments, more info [here](https://pe.usps.com/text/pub52/pub52c4_013.htm).
 * Liquids, Powders, and Odor-Producing Materials, more info [here](https://pe.usps.com/text/pub52/pub52c4_017.htm).
 * Animals, more info [here](https://pe.usps.com/text/pub52/pub52c4_023.htm).
-* Cigarettes, and Tobacco, more info** [here](https://pe.usps.com/text/pub52/pub52c4_025.htm).**
+* Cigarettes, and Tobacco, more info[here](https://pe.usps.com/text/pub52/pub52c4_025.htm).
