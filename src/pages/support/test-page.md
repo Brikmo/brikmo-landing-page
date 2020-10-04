@@ -1,7 +1,7 @@
 ---
 templateKey: support-page
 path: /covid-19-notice-and-safety
-seoTitle: COVID-19 Notice and Safety
+seoTitle: Brikmo COVID-19 Notice and Safety
 seoDescription: "Coronavirus disease 2019 (COVID-19) is a respiratory illness
   caused by a virus called SARS-CoV-2. Symptoms often include cough, shortness
   of breath, fever, chills, muscle pain, sore throat, or new loss of taste or
