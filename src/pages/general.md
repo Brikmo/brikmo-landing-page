@@ -18,5 +18,5 @@ footerLinks:
 medium: https://medium.com/@brikmo
 tiktok: https://www.tiktok.com/@brikmo
 twitter: https://twitter.com/brikmoapp
-copyright: Copyright © Brikmo, Inc. All rights reserved.
+copyright: Copyright © 2020 Brikmo, Inc. All rights reserved.
 ---
