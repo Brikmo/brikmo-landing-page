@@ -34,7 +34,7 @@ Brikmo is a mobile app platform that lets Customers seek personal shopping/picku
 * Home, Garden, and Tools
 * Pet Supplies
 * Beauty and Health
-* Toys, Kids, and Baby
+* Toys, Kids supplies, and Baby supplies
 * Arts and Crafts
 * Sporting Goods
 * Outdoors Supplies
