@@ -50,4 +50,4 @@ Brikmo is a mobile app platform that lets Customers seek personal shopping/picku
 * Knives and select Sharp Instruments, more info [here](https://pe.usps.com/text/pub52/pub52c4_013.htm).
 * Liquids, Powders, and Odor-Producing Materials, more info [here](https://pe.usps.com/text/pub52/pub52c4_017.htm).
 * Animals, more info [here](https://pe.usps.com/text/pub52/pub52c4_023.htm).
-* Cigarettes, and Tobacco, more info[here](https://pe.usps.com/text/pub52/pub52c4_025.htm).
+* Cigarettes, and Tobacco, more info [here](https://pe.usps.com/text/pub52/pub52c4_025.htm).
