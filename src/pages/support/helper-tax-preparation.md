@@ -33,20 +33,15 @@ If you’re an independent contractor you’ll be receiving the 1099 contractor 
 
 The biggest difference between filing as an employee and doing your taxes as an independent contractor is that as an independent contractor, you can deduct business expenses from the Schedule C form tax form. This is because an independent contractor is treated like a business owner, even if the only person who works for you is you. It’s useful because it brings down your overall tax liability.
 
-
-
 You’ll need to submit your 1099-MISC by [January 31](https://www.irs.gov/businesses/small-businesses-self-employed/forms-and-associated-taxes-for-independent-contractors), and also fill out any W-2s by then. This is an important date, because it used to be later, and was recently changed. A great calendar of all deadlines for small business taxes in 2018 can be [found here](https://bench.co/syllabus/tax-basics/2018-tax-deadlines-small-business/).
 
 ## **How Can I Prepare for Filing Taxes as an Independent Contractor?**
 
 Before filing your independent contractor tax return, you’ll need to prepare a few things.:
 
-* Gather your tax documentation. This means finding every 1099 form that you’ve received from clients.
+* Gather your tax documentation. This means having access to your 1099 form for tax filing.
 * Collect all your business receipts. You can deduct all of your ordinary and necessary business expenses from your income before you calculate tax, so make sure that you keep a record of what you spend during the year. You’ll be asked to prove your expenses.
 * Calculate your [deductions](https://www.thebalance.com/how-to-report-and-pay-independent-contractor-taxes-398907). You can deduct any expense that is considered to be ‘ordinary and necessary,’ meaning that you need it to do your job and it is an expected part of your job. Business costs which don’t count as deductible expenses could include hiring a limo to pick up your clients or buying fancy work clothes. Some common expenses include:
-
-
-
 * * Gas to drive to clients
   * A new work computer or business software
   * A portion of your rent and electricity if you work from home
@@ -57,7 +52,7 @@ Before filing your independent contractor tax return, you’ll need to prepare a
 
 ## **How Do I Complete These Forms?**
 
-* Calculate your gross income for the last tax year. This should be a simple matter of adding up the amount on every 1099 form you’ve received.
+* Calculate your gross income for the last tax year. This should be a simple matter of adding up the amount on the 1099 form you’ve received.
 * You can then use Schedule C to list and add up your deductible business expenses. If your business expenses come to less than $5,000, you have no employees, and you’re not deducting for a home office, you can use Schedule C-EZ, which is much faster to complete.
 * Then, write your total expenses on form 1040 to discover your net income.
 * Use the table in form 1040 instructions and your net income to work out how much you owe in income and state taxes.
@@ -68,7 +63,7 @@ Before filing your independent contractor tax return, you’ll need to prepare a
 
 ### **What is a 1099 form?**
 
-The 1099 form is the form you get from your clients instead of a W-2 form.
+The 1099 form is the form you get from Brikmo instead of a W-2 form.
 
 ### **Can I do my business tax return myself as an independent contractor?**
 
