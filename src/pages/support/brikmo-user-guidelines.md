@@ -32,9 +32,9 @@ As part of our continuous effort to promote respect on the platform, we reserve 
 
 * Discrimination of any kind on the basis of race, ethnicity, religion, gender or gender identity, age, marital status, sexual orientation, mental/physical condition or disability, age, profession, national origin or any other basis protected under applicable law.
 * Vulgar, inappropriate, intrusive, harassing, abusive or unwanted language of any kind towards others, whether verbal or written. This includes, but is not limited to, asking overly personal questions of customers, contractors, retailer employees or Brikmo employees. Please note: Contact information between Helpers and Customers is anonymized when interacting through the Brikmo app. You do not need to share your personal phone number or email. The Brikmo app should not be used to communicate for issues other than order items, the status of an order, or the manner of delivery.
-* Unwanted physical contact or sexual conduct of any kind involving contractors, retail employees, or Brikmo employees while receiving services.
-* Intentional property damage or vandalism of any kind.
-* Creating disturbances for the surrounding public (e.g. neighbors, co-workers, store employees, security guards, etc).
+* Unwanted physical contact or sexual conduct of any kind involving contractors, retail employees, or Brikmo employees while receiving services is strictly prohibited and may potentially result in legal action.
+* Intentional property damage or vandalism of any kind is prohibited and may result in legal prosecution.
+* Creating disturbances for the surrounding public (e.g. neighbors, co-workers, store employees, security guards, etc) is strongly discouraged and may lead to permanent removal from the app and Brikmo services.
 
 **Integrity:** 
 
