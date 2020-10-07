@@ -34,11 +34,11 @@ Brikmo is a mobile app platform that lets Customers seek personal shopping/picku
 * Home, Garden, and Tools
 * Pet Supplies
 * Beauty and Health
-* Toys, Kids supplies, and Baby supplies
+* Toys, Kids Supplies, and Baby Supplies
 * Arts and Crafts
 * Sporting Goods
 * Outdoors Supplies
-* Automotive and Industrial
+* Automotive and Industrial Products
 * Convenience Store Products
 
 **Unapproved for Delivery:**
