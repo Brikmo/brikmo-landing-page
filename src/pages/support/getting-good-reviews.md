@@ -14,8 +14,6 @@ description: "At Brikmo, our goal is to make same-day deliveries from local
 ---
 At Brikmo, our goal is to make same-day deliveries from local retailers easy and community-focused. To achieve this, it’s important that we ensure a user-experience that includes a safety-first perspective, happy Customers, and well-compensated Helpers. 
 
-
-
 **Safety:** 
 
 Safety is our first priority. Every individual should feel comfortable, safe, and secure using Brikmo’s app. We do not permit any activity that could create unsafe conditions or cause harm to others.
@@ -26,7 +24,7 @@ We create a community which operates by “You’re only as good as your previou
 
 **Efficiency:** 
 
-Time is the core proponent in the idea of “same-day delivery”. With that being the case, it is very important that both the Customer and the Helper are timely with their messaging each other, and the Helper operates at a professional pace when performing a delivery. The quicker, and smoother the experience is without issues, higher ratings are guaranteed.
+Time is the core component in the idea of “same-day delivery”. With that being the case, it is very important that both the Customer and the Helper are timely with their messaging each other, and the Helper operates at a professional pace when performing a delivery. The quicker, and smoother the experience is without issues, higher ratings are guaranteed.
 
 **Focus on Success:**
 
