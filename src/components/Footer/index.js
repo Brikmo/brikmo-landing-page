@@ -65,7 +65,7 @@ const FooterTemplate = ({ data }) => {
             </div>
             <div>
               <p className={style.copyright}>{frontmatter.copyright}</p>
-              <p className={style.hashtag}>#TGBTG</p>
+              <p className={style.hashtag}>{frontmatter.hashtag}</p>
             </div>
             <div className={style.appButtons}>
               <div className={style.buttonApp}>
@@ -124,6 +124,7 @@ export default function Footer() {
                   tiktok
                   twitter
                   copyright
+                  hashtag
                   footerLinks {
                     label
                     url
