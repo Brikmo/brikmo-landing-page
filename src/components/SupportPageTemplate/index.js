@@ -5,6 +5,13 @@ import { Link } from "gatsby";
 
 const SupportPageTemplate = ({ contents }) => {
   const [search, setSearch] = React.useState("");
+
+  const results =
+    search !== ""
+      ? contents.filter((content) =>
+          content.node.frontmatter.title.toLowerCase().includes(search)
+        )
+      : contents;
   return (
     <div className="page">
       <Header inverted />
@@ -23,18 +30,20 @@ const SupportPageTemplate = ({ contents }) => {
       <section className="section section--gradient">
         <div className="container">
           <div className={`columns ${style.results}`}>
-            {contents &&
-              contents
-                .filter((content) =>
-                  content.node.frontmatter.title.toLowerCase().includes(search)
-                )
-                .map((content) => (
-                  <div className={style.boxResults}>
-                    <Link to={content.node.frontmatter.path}>
-                      {content.node.frontmatter.title}
-                    </Link>
-                  </div>
-                ))}
+            {results && results.length > 0 ? (
+              results.map((content) => (
+                <div className={style.boxResults}>
+                  <Link to={content.node.frontmatter.path}>
+                    {content.node.frontmatter.title}
+                  </Link>
+                </div>
+              ))
+            ) : (
+              <p>
+                No results. Please contact us as at{" "}
+                <a href="mailto:team@brikmo.co">team@brikmo.co</a>
+              </p>
+            )}
           </div>
         </div>
       </section>
