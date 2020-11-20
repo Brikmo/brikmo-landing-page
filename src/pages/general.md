@@ -1,7 +1,7 @@
 ---
 downloadText: "Select Your Device:"
 iosAppLink: https://www.apple.com
-androidAppLink: https://www.apple.com
+androidAppLink: https://play.google.com/store
 footerLinks:
   - label: Contact
     url: /#contact
