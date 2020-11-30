@@ -42,7 +42,7 @@ Trust is a key ingredient in our recipe for success as a community. We expect al
 
 As part of our continuous effort to promote integrity on the platform, we reserve the right to investigate and take action on any instances including, but not limited to, the following:
 
-* Violation of any local, state, or federal laws while engaging with the Brikmo platform.
+* Violation of any local, state, or federal laws while engaging with the Brikmo platform. Please note: All users on the Brikmo platform must be verified in order to use the app, and if any violation of laws are performed while using the app, the activities performed on the Brikmo platform may be provided to legal authorities and reviewed during the criminal investigation. See [Brikmo Privacy Policy](https://www.brikmo.co/privacy-policy) for more info.
 * Engaging in spam or phishing-related activity.
 * Abuse and/or manipulation of referral, coupon, or appeasement offerings, loyalty programs, etc.
 * Encouraging others to participate in fraud or to disrupt the integrity of the platform.
