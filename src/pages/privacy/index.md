@@ -126,7 +126,7 @@ contents:
       8. Contacting Us
 
 
-      If you have any questions about this Privacy Policy or the manner in which we or our Third Party Agents treat your Personal Information, the practices of the Site, your dealings with the Brikmo Platform, or if you have technical problems, you may contact us at [team@brikmo.co](mailto:team@brikmo.co).
+      If you have any questions about this Privacy Policy or the manner in which we or our Third Party Agents treat your Personal Information, the practices of the Site, your dealings with the Brikmo Platform, or if you have technical problems, you may contact us at support@brikmo.co.
 
 
       9. Jurisdiction-specific Provisions
@@ -237,7 +237,7 @@ contents:
       Right to Non-Discrimination. You have the right to non-discriminatory treatment by us, should you exercise any of your rights.
 
 
-      Shine the Light. Customers who are residents of California may request info: a list of the categories of Personal Information disclosed by us to third parties during the immediately preceding calendar year for those third parties’ own direct marketing purposes, and (ii) a list of the categories of third parties to whom we disclose such information. To exercise a request, please contact us at [team@brikmo.co](mailto:team@brikmo.co). Requests must include “Username” and “California Shine the Light Request” in the subject line of the description and include your name, street address, city, state, and ZIP code in the body. We may require additional information from you to allow us to verify your identity and are only required to respond to requests once during any calendar year. Please note that Brikmo is not required to respond to requests made by means other than through the provided email address.
+      Shine the Light. Customers who are residents of California may request info: a list of the categories of Personal Information disclosed by us to third parties during the immediately preceding calendar year for those third parties’ own direct marketing purposes, and (ii) a list of the categories of third parties to whom we disclose such information. To exercise a request, please contact us at team@brikmo.co. Requests must include “Username” and “California Shine the Light Request” in the subject line of the description and include your name, street address, city, state, and ZIP code in the body. We may require additional information from you to allow us to verify your identity and are only required to respond to requests once during any calendar year. Please note that Brikmo is not required to respond to requests made by means other than through the provided email address.
 
 
       C. Residents of Canada.
@@ -258,6 +258,6 @@ contents:
       10. Brikmo Platform Usage
 
 
-      Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at [team@brikmo.co](mailto:team@brikmo.co).
+      Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at team@brikmo.co.
 ---
 privacy page
