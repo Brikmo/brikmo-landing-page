@@ -31,4 +31,4 @@ We look to work closely with local charities in the locations below:
   * Edgewater
   * Fort Lee
 
-If you are a member of a charity organization that needs support in delivering items to those in need, please email us at [info@brikmo.co](info@brikmo.co) - Subject Line: "Charity Partner"
+If you are a member of a charity organization that needs support in delivering items to those in need, please email us at [team@brikmo.co](team@brikmo.co) - Subject Line: "Charity Partner"
