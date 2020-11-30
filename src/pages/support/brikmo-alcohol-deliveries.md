@@ -29,4 +29,6 @@ If you or a loved one may be abusing alcohol and are looking for support, you ar
 * [SMART RECOVERY](https://www.smartrecovery.org/)
 * [ALCOHOLICS ANONYMOUS](https://www.aa.org/pages/en_US/need-help-with-a-drinking-problem)
 
-Responsibility. Brikmo has preliminary ID verification technology that allows Helpers to verify their age, as well as the Customer’s age to confirm legal purchase of alcohol. In keeping Brikmo compliant with state alcohol regulators, Brikmo requires that Helpers verify the age of the Customer at delivery by reviewing the Customer’s ID before drop-off. Once confirmed, the item can be handed to the Customer. If the Customer is not available at the door at the time of delivery, the item must be returned, and the Customer will be charged an Alcohol Return Fee ($5.00).
+**Responsibility** 
+
+Brikmo has preliminary ID verification technology that allows Helpers to verify their age, as well as the Customer’s age to confirm legal purchase of alcohol. In keeping Brikmo compliant with state alcohol regulators, Brikmo requires that Helpers verify the age of the Customer at delivery by reviewing the Customer’s ID before drop-off. Once confirmed, the item can be handed to the Customer. If the Customer is not available at the door at the time of delivery, the item must be returned, and the Customer will be charged an Alcohol Return Fee ($5.00).
