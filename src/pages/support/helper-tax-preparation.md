@@ -18,7 +18,7 @@ description: As a Helper on Brikmo, you’re working as an independent contracto
   for yourself, which means that you don’t have an employer who withholds your
   taxes.
 ---
-As a Helper on Brikmo, you’re working as an independent contractor. You know that you need to take care of all aspects of your business, from making sure you have the proper small business liability insurance to taking care of your tax return. 
+As a Helper on Brikmo, you’re working as an independent contractor. You know that you need to take care of all aspects of your business, from making sure you have the proper small business liability insurance to taking care of your tax return. Here are some tips brought to you by [nextinsurance.com](https://www.nextinsurance.com/blog/filing-taxes-independent-contractor-1099-contractor-form/) that will help you through the tax preparation process:
 
 Your tax situation is going to be a bit different than the standard employee tax returns. As an independent contractor you work for yourself, which means that you don’t have an employer who withholds your taxes.
 
