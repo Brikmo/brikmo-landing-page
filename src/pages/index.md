@@ -27,7 +27,7 @@ contents:
       - label: iOS
         url: http://www.apple.com
       - label: Android
-        url: http://www.apple.com
+        url: https://play.google.com/store
     image: /img/illustration2.png
   - title: Receive & Rate Your Delivery.
     text: >
