@@ -24,7 +24,7 @@ We create a community which operates by “You’re only as good as your previou
 
 **Efficiency:** 
 
-Time is the core component in the idea of “same-day delivery”. With that being the case, it is very important that both the Customer and the Helper are timely with their messaging each other, and the Helper operates at a professional pace when performing a delivery. The quicker, and smoother the experience is without issues, higher ratings are guaranteed.
+Time is the core component in the idea of “same-day delivery”. With that being the case, it is very important that both the Customer and the Helper are timely with their communication with each other, and the Helper operates at a professional pace when performing a delivery. The quicker, and smoother the experience is without issues, higher ratings are guaranteed.
 
 **Focus on Success:**
 
@@ -32,10 +32,10 @@ As a Brikmo user, if these central points listed above are followed, your succes
 
 **Ways to help Brikmo:**
 
-Your feedback matters, so tell us about your experiences. You can provide suggestions, contact support at <https://brikmo.co> and/or submit issues directly in the app.
+Your feedback matters, so tell us about your experiences. You can provide suggestions, contact support at [support@brikmo.co](support@brikmo.co) and/or submit issues directly in the app by selecting "Support" on the user menu.
 
 **Disclaimer:**
 
-Brikmo reviews all reported violations of the Brikmo [User Guidelines](http://google.com) and reserves the right to permanently remove account access for Helpers or Customers found to be in violation.*
+Brikmo reviews all reported violations of the [Brikmo User Guidelines](https://www.brikmo.co/brikmo-user-guidelines) and reserves the right to permanently remove account access for Helpers or Customers found to be in violation.*
 
 \*In some instances, a thorough investigation may be needed, during which time the associated account(s) will be suspended pending the outcome.
