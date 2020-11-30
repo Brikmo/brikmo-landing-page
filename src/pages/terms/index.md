@@ -111,7 +111,7 @@ contents:
       6. Delivery of Prescription Drug Products
 
 
-      The formal delivery of prescription drug products is currently unavailable on the Brikmo Platform. It is also understood that the pickup and delivery of any legal products are authorized on Brikmo, which may include pharmacy-related products, and it is the sole responsibility of the Customer to determine if those products are applicable for delivery. For more information on acceptable/unacceptable Brikmo deliveries, please click [here](http://google.com).
+      The formal delivery of prescription drug products is currently unavailable on the Brikmo Platform. It is also understood that the pickup and delivery of any legal products are authorized on Brikmo, which may include pharmacy-related products, and it is the sole responsibility of the Customer to determine if those products are applicable for delivery. For more information on acceptable/unacceptable Brikmo deliveries, please click [here](https://www.brikmo.co/approved-unapproved-deliveries).
 
 
       7. Third-party Products and Content
@@ -183,7 +183,7 @@ contents:
       Notwithstanding any other clause contained in this Agreement, any claim that all or part of the Class Action Waiver or PAGA Waiver is invalid, unenforceable, unconscionable, void or voidable may be determined only by a court of competent jurisdiction and not by an arbitrator. The Class Action Waiver and PAGA Waiver shall be severable when a dispute is filed as an individual action and severance is necessary to ensure that the individual action proceeds in arbitration.
 
 
-      Opt-out of Mandatory Arbitration: You can decline this mandatory arbitration provision within 30 days of accepting these Terms by emailing Brikmo at [team@brikmo.co](mailto:team@brikmo.co) with your first and last name and stating your intent to opt-out of the arbitration provision. Note that opting out of this arbitration provision does not affect any other part of these Terms, including the provisions regarding controlling law or in which courts any disputes must be brought.
+      Opt-out of Mandatory Arbitration: You can decline this mandatory arbitration provision within 30 days of accepting these Terms by emailing Brikmo at support@brikmo.co with your first and last name and stating your intent to opt-out of the arbitration provision. Note that opting out of this arbitration provision does not affect any other part of these Terms, including the provisions regarding controlling law or in which courts any disputes must be brought.
 
 
       Arbitration Procedures and Location: The arbitration shall be administered by JAMS under its Comprehensive Rules in effect at the time the arbitration demand is made. The current rules, effective July 1, 2014, can be found here: http://www.jamsadr.com/rules-comprehensive-arbitration/. JAMS arbitration rules can be found here: http://www.jamsadr.com/rules-clauses/. In the event of any conflict between the rules and this Agreement, this Agreement shall apply. The Parties agree to submit to the jurisdiction of a single neutral arbitrator selected in accordance with the JAMS Comprehensive Rules.
@@ -249,7 +249,7 @@ contents:
       ATTN: Copyright Agent
 
 
-      [team@brikmo.co](mailto:team@brikmo.co)
+      team@brikmo.co
 
 
       If you believe any content posted or made available on the Services constitutes infringement of your trademark rights, you may also send your notice to Brikmo's designated Copyright Agent using the contact information listed above. Please include as much detail as possible so that we may respond to your notice in a timely manner, including but not limited to description(s) of your trademark(s), your trademark registration number(s), description(s) of the products allegedly using your trademark(s) without authorization, and the location of such allegedly infringing product(s).
@@ -264,8 +264,8 @@ contents:
       Brikmo
 
 
-      [team@brikmo.co](mailto:team@brikmo.co)
+      team@brikmo.co
 
 
-      For customer service inquiries, please review Your Account Settings, visit [Brikmo’s Support Page](https://www.brikmo.co/support).
+      For customer service inquiries, or more info about Brikmo and its platform, visit [Brikmo’s Support Page](https://www.brikmo.co/support).
 ---
