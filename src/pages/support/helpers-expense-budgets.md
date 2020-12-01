@@ -35,8 +35,6 @@ Expense Budgets are generally based on the type of orders you as a Helper are ca
 
 **Best Practices**
 
-We at Brikmo have a lot on the way regarding our community of users and how they interact with the Brikmo app. 
-
 Since Helper Budgets are Expensed by the Helper and reimbursed after the delivery by the Customer, there needs to be a proven system in place to allow for the Helper to perform his/her work both successfully and effectively. One way to perform Helper tasks that require an Expense Budget is by setting aside the Helper’s specified amount of funds in a debit card or physically in cash (using your debit/credit card is highly recommended) to be used daily. Once funds are reimbursed, you can replenish the set-aside funds to continue your Helper services. Our most popular way to operate as a Helper with a Helper Expense Budget is found below. You can also earn great rewards, and build your credit score:
 
 * Use your personal reward-earning credit card specifically for Brikmo Shopping orders - Yes, you can earn credit card rewards without spending any of your own money. As a Helper, you will be responsible for reimbursable work expenses. So, it makes perfect sense to take advantage of the opportunity to not only get paid for your delivery services, but also redeem and earn travel rewards for free flights, cash back, or any other assortment of benefits your credit card provides.
