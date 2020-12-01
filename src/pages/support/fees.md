@@ -16,9 +16,9 @@ Fees vary based on market and are calculated based on certain order specificatio
 
 **FOR CUSTOMERS:** Brikmo guarantees a minimum delivery payment of $5 for each Delivery Opportunity. The surcharge and fees based on item adjustments after order confirmation are found below:
 
-* A third-party payment processing fee of approximately 2.5-2.9% of the payment transaction is included and will be tallied under "Taxes and fees" in the Status page of your order.
-* $0.25 will be applied per any approved additional item/s following the commencement or confirmation of an order (once a Helper has been hired and order commences). This charge will be tallied under “Taxes and fees” in the Status page of your order.
-* $1.00 will be applied per any item/s beyond a total of 50 items on the customer order list.  This charge will be tallied under “Taxes and fees” in the Status page of your order.
+* A third-party payment processing fee of approximately 2.9% + $0.30 of the payment transaction is included and will be tallied under "Taxes and fees" in the Status page of your order.
+* Optional fee: $0.25 will be applied per any approved additional item/s following the commencement or confirmation of an order (once a Helper has been hired and order commences). This charge will be tallied under “Taxes and fees” in the Status page of your order.
+* Optional fee: $1.00 will be applied per any item/s beyond a total of 50 items on the customer order list.  This charge will be tallied under “Taxes and fees” in the Status page of your order.
 
 **FOR HELPERS:** An Expense Budget is required in order for the Helper to complete a purchase delivery order. The Expense Budget is predicated by the Helper to show to the customer the amount the Helper will be able to spend to expense a purchase before delivery. Once delivered, the expense will immediately be reimbursed to the Helper.  This criteria is considered by the customer to determine whether the Helper can expense the order being requested. For more information on Expense Budgets, learn more [here](https://www.brikmo.co/helper-expense-budgets).
 
