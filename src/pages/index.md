@@ -40,14 +40,13 @@ contents:
     links: null
     image: /img/illustration3.png
   - title: Safety first during COVID-19.
-    text: >
-      With coronavirus having a large impact on our society, both socially and
+    text: With coronavirus having a large impact on our society, both socially and
       economically, Brikmo has taken the conscious steps to ensure our users'
       safety and health is our top priority. With a high demand for same-day
       deliveries, Brikmo is implementing policies that support productivity for
       both our Customers and our Helpers, as well as maintaining safe conditions
       by following CDC guidelines.  For more details, [click
-      here](https://www.apple.com).
+      here](https://www.brikmo.co/covid-19-notice-and-safety).
     imagePosition: right
     additionalText: null
     links: null
