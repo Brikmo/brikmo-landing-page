@@ -1,6 +1,15 @@
 @import "~bulma";
 @import "./sizes.scss";
 
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/AvenirNext-Regular.woff2") format("woff2"),
+    url("../fonts/AvenirNext-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -48,7 +57,7 @@ body {
         margin-bottom: 70px;
       }
       p {
-        font-family: "Avenir";
+        font-family: "Avenir Next";
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
