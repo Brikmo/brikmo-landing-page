@@ -1,6 +1,6 @@
 ---
 templateKey: support-page
-path: /tgbtg
+path: /tybtg
 seoTitle: TGBTG Charity equals Prosperity
 seoDescription: "The founding of Brikmo was solely based on serving all
   communities. Our higher calling in creating this company has always been to
@@ -15,7 +15,7 @@ description: "Brikmo: A Company Rooted In Giving"
 
 The founding of Brikmo was solely based on serving all communities. Our higher calling in creating this company has always been to have the ability to open up channels to provide essentials to the many in need during challenging times.
 
-Brikmo has created the **TGBTG Program** to deliver on our promise to serve our community. 
+Brikmo has created the **TYBTG Program** to deliver on our promise to serve our community. 
 
 We look to work closely with local charities in the locations below:
 
