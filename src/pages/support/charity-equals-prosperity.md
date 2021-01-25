@@ -1,7 +1,7 @@
 ---
 templateKey: support-page
 path: /tybtg
-seoTitle: TGBTG Charity equals Prosperity
+seoTitle: TYBTG Charity Equals Prosperity
 seoDescription: "The founding of Brikmo was solely based on serving all
   communities. Our higher calling in creating this company has always been to
   have the ability to open up channels to provide essentials to the many in need
