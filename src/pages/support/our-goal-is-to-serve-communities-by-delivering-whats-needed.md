@@ -7,7 +7,7 @@ seoDescription: Brikmo is your local delivery app. Our goal is to serve all
   better yet, anything from your local retail chains and brick & mortar shops
   (get it? Brikmo!) quickly and directly to your front door, and do it in a way
   that not only benefits the receiver, but also the Helper delivering the items.
-title: Our Goal Is To Serve Communities By Delivering What's Needed
+title: Our Goal Is To Serve Communities
 description: "Brikmo: A Company Rooted In Helping"
 ---
 ## **Brikmo Is Essential**
