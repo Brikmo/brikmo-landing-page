@@ -16,7 +16,7 @@ description: "Brikmo: A Company Rooted In Helping"
 
 # **Brikmo Is Essential**
 
-Brikmo is your local delivery app. Our goal is to serve all communities by delivering what is needed. We aim to bring the essentials, better yet, anything from your local retail chains and brick & mortar shops (get it? Brikmo) quickly and directly to your front door, and do it in a way that not only benefits the Customer, but also the Helper delivering the items. With list-your-own-price for Helpers, we create an open market where the platform does not dictate delivery prices. With safe deliveries, both the Customer and the Helper are engaging in a manner that is most risk-averse in this current pandemic environment. At Brikmo, we intrinsically want to provide the various things people need everyday, and all within the same day.
+Brikmo is your local delivery app. Our goal is to serve all communities by delivering what is needed. We aim to bring the essentials, better yet, anything from your local retail chains and brick & mortar shops (get it? Brikmo) quickly and directly to your front door, and do it in a way that not only benefits the Customer, but also the Helper delivering the items. With list-your-own-price for Helpers, we create an open market where the platform does not dictate delivery prices. With safe deliveries, both the Customer and the Helper are engaging in a manner that is most risk-averse in this current pandemic environment. At Brikmo, we intrinsically want to provide the various items people need everyday, and all within the same day.
 
 
 
