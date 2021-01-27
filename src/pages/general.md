@@ -3,14 +3,14 @@ downloadText: "Select Your Device:"
 iosAppLink: https://www.apple.com
 androidAppLink: https://play.google.com/store
 footerLinks:
-  - label: About
-    url: /about
   - label: Contact
     url: /#contact
   - label: Terms of Service
     url: /terms-of-service
   - label: Blog
     url: https://medium.com/@brikmo
+  - label: About
+    url: /about
   - label: Privacy Policy
     url: /privacy-policy
   - label: Careers
