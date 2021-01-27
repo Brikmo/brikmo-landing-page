@@ -3,6 +3,8 @@ downloadText: "Select Your Device:"
 iosAppLink: https://www.apple.com
 androidAppLink: https://play.google.com/store
 footerLinks:
+  - label: About
+    url: /about
   - label: Contact
     url: /#contact
   - label: Terms of Service
